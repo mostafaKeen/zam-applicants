@@ -45,15 +45,65 @@ $mapping = [
 // For now, we'll keep the values as strings. 
 // Bitrix24 usually accepts labels for some fields but IDs for enumerations.
 
-$mapped_data = array_map(function($item) use ($mapping) {
+$stagesFile = 'stages_data.json';
+
+if (!file_exists($stagesFile)) {
+    die("Error: Stages data file '$stagesFile' not found.\n");
+}
+
+$stagesData = json_decode(file_get_contents($stagesFile), true);
+if (!$stagesData || !isset($stagesData['result'])) {
+    die("Error: Failed to decode stages JSON or invalid format.\n");
+}
+
+// Build stage mapping dictionary: Name => STATUS_ID (only for Entity 1038)
+$stageDict = [];
+foreach ($stagesData['result'] as $status) {
+    if ($status['ENTITY_ID'] === 'DYNAMIC_1038_STAGE_14') {
+        // Use lowercase to make matching case-insensitive
+        $stageDict[strtolower(trim($status['NAME']))] = $status['STATUS_ID'];
+        
+        // Also add NAME_INIT as a fallback if it's different and not empty
+        if (!empty($status['NAME_INIT']) && $status['NAME_INIT'] !== $status['NAME']) {
+            $stageDict[strtolower(trim($status['NAME_INIT']))] = $status['STATUS_ID'];
+        }
+    }
+}
+
+// Special cases if the names in Excel don't match Bitrix exactly
+$stageDict['1st interview'] = 'DT1038_14:UC_Z3P09M'; // 1st Interview
+$stageDict['2nd interview'] = 'DT1038_14:UC_QXH80O'; // 2nd Interview
+$stageDict['offer'] = 'DT1038_14:UC_QW0BFS';
+$stageDict['joining'] = 'DT1038_14:UC_W15C0C';
+// Feel free to add more manual mappings if data anomalies are found
+
+$mapped_data = array_map(function($item) use ($mapping, $stageDict) {
     $mapped_item = [];
     foreach ($mapping as $excelKey => $bxKey) {
         if (isset($item[$excelKey])) {
-            $mapped_item[$bxKey] = $item[$excelKey];
+            $val = $item[$excelKey];
+            
+            // Map the stage name to the Bitrix24 STATUS_ID
+            if ($bxKey === 'stageId') {
+                 $stageNameKey = strtolower(trim((string)$val));
+                 if (isset($stageDict[$stageNameKey])) {
+                     $val = $stageDict[$stageNameKey];
+                 } else {
+                     // Default to "New" stage if the name isn't found
+                     // Assuming 'Start' or 'New' is the default
+                     $val = 'DT1038_14:NEW'; 
+                 }
+            }
+            
+            $mapped_item[$bxKey] = $val;
         } else {
             $mapped_item[$bxKey] = null;
         }
     }
+    
+    // Explicitly set the categoryId to 14 for Entity 1038
+    $mapped_item['categoryId'] = 14;
+    
     return $mapped_item;
 }, $raw_data);
 
