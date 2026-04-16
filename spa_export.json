@@ -1,0 +1,2722 @@
+[
+[
+  {
+    "Type": "Activity",
+    "Id": 7372,
+    "Created": "11/14/2025 9:41:34 AM",
+    "EntityId": 6269,
+    "AuthorId": 1275,
+    "OwnerId": 6269,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/27/2025 8:16:59 AM",
+    "Completed": "Y",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nNo response \nMssg sent \n[/p]"
+  },
+  {
+    "Type": "Activity",
+    "Id": 7373,
+    "Created": "11/14/2025 10:09:04 AM",
+    "EntityId": 6269,
+    "AuthorId": 1275,
+    "OwnerId": 6269,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/27/2025 8:16:25 AM",
+    "Completed": "Y",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nCandidate called back.\nAsked if a basic salary could be provided of 2K .\nWhen confirmed this is a commission based role, he declined.\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246577,
+    "Created": "10/16/2025 2:06:14 PM",
+    "EntityId": 6269,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source of lead : Indeed[/P]\n[P]Nationality:                   Egyptian[/P]\n[P]Currently Employed :   Yes [/P]\n[P]Job Title :                      Sales Consultant [/P]\n[P]Years of experience in real estate: 6months[/P]\n[P]Company of Employment:            Royal Black[/P]\n[P]Professional background:              Immigration sales [/P]\n[P]Driver’s licence:                     I     No [/P]\n[P]Visa status:                                    Freelance [/P]\n[P]Languages spoken:                       Arabic, English , Little French[/P]\n[P]Level of proficiency in English:   Intermediate [/P]\n[P]Knowledge on RE/MAX model: Is aware of the model as, he has worked on other similar business models.[/P]\n[P] [/P]\n[P]Notes :[/P]\n[P]Has received a call from another RE/MAX office 3 days ago.[/P]\n[P]Is looking for a fixed salary and commission .Can switch to commission based[/P]\n[P] (50-50%) after this first sale.[/P]\n[P]Has experience and contacts in primary and secondary market.[/P]\n[P]Has closed deals in Immigration.[/P]\n[P]Rating : 3[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246575,
+    "Created": "10/16/2025 2:04:44 PM",
+    "EntityId": 6270,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Called twice \nNot contactable \nSource of lead : Indeed"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 7371,
+    "Created": "11/14/2025 9:40:23 AM",
+    "EntityId": 6271,
+    "AuthorId": 1275,
+    "OwnerId": 6271,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/14/2025 9:50:51 AM",
+    "Completed": "N",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nNo response.\nMssg sent to connect.\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246573,
+    "Created": "10/16/2025 2:04:12 PM",
+    "EntityId": 6271,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Nationality :                               Cameroonian[P]Date of birth :                             26June 1995[/P]\n[P]Currently Employed:                  Televestigo Du affiliate Company [/P]\n[P]Year of experience in real estate: 7 months in Dubai [/P]\n[P]Company of Employment:           Televestigo  [/P]\n[P]Professional background:             Telesales and sales [/P]\n[P]Driver’s licence:                            In process [/P]\n[P]Visa status:                                    Freelance       [/P]\n[P]Languages spoken:                        French &amp; English [/P]\n[P]Level of proficiency in English:   Advanced [/P]\n[P]Knowledge on RE/MAX model:   Not aware but interested.[/P]\n[P]Notes : Source of lead (Indeed)[/P]\n[P]Fanka has 7 years of real estate experience out of Dubai. [/P]\n[P]7 months of experience as an off plan agent .Worked closely with Damac, Binghatti and other renowned Developers.[/P]\n[P] [/P]\n[P]Ratings : 4[/P]\n[P]Well spoken and enthusiastic.[/P]\n[P]Wants to know about the RE/MAX model and he is interested.[/P]\n[P]Level of proficiency in English – Advanced [/P]\n[P] [/P]\n[P]Called back for an office meet on the 17th for an office meet.[/P]\n[P]He has queried about the salary and the target market.[/P]Current salary is 5k"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 6499,
+    "Created": "10/20/2025 2:41:38 PM",
+    "EntityId": 6272,
+    "AuthorId": 1166,
+    "OwnerId": 6272,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "10/20/2025 2:41:43 PM",
+    "Completed": "Y",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nOffice Meeting\n[/p]"
+  },
+  {
+    "Type": "Activity",
+    "Id": 6474,
+    "Created": "10/17/2025 1:36:53 PM",
+    "EntityId": 6272,
+    "AuthorId": 1166,
+    "OwnerId": 6272,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "10/20/2025 2:35:31 PM",
+    "Completed": "Y",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nCall him \n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246563,
+    "Created": "10/16/2025 1:43:45 PM",
+    "EntityId": 6272,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source of lead: Indeed [/P]\n[P]Nationality :                           Kenyan [/P]\n[P]DOB :                                    14 Oct 1994[/P]\n[P]Currently Employed:             Owns his own business in Africa. [/P]\n[P]Experience in real estate:      Yes. As a referral [/P]\n[P]Professional background :     Mostly entrepreneurship [/P]\n[P]Driver’s licence:                    No[/P]\n[P]Visa status:                            Visit visa [/P]\n[P]Languages spoken:                English , Swahili, Basic French[/P]\n[P]Level of proficiency in English:   Advance [/P]\n[P]Knowledge on RE/MAX model:   No[/P]\n[P]Notes :[/P]\n[P]Daniel has his own drop shipping business in Jewellery.[/P]\n[P]Has plans to relocate to Dubai, and is looking for business opportunities.[/P]\n[P]He has a history of owning business either an entrepreneur or as a partner.[/P]\n[P] [/P]Ratings : 4"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2246711,
+    "Created": "10/17/2025 1:36:22 PM",
+    "EntityId": 6272,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "He is new to Dubai. Has his own business in Kenya. He&#39;s not sure he can manage to work as a real estate agent now, he&#39;s thinking of getting a job with a salary first"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2247108,
+    "Created": "10/20/2025 2:42:44 PM",
+    "EntityId": 6272,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "He&#39;s  not sure what he wants. He&#39;s new to the country and prefers to start a salary-based job"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 6492,
+    "Created": "10/20/2025 12:28:01 PM",
+    "EntityId": 6273,
+    "AuthorId": 1166,
+    "OwnerId": 6273,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "12/25/2025 11:01:16 PM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nMeeting held at the office. He asked for salary. He can't work on commission basis. \n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246581,
+    "Created": "10/16/2025 2:28:25 PM",
+    "EntityId": 6273,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source of lead : Indeed [/P]\n[P]Nationality :                 Egyptian [/P]\n[P]DOB:                            4th Feb 1991[/P]\n[P]Currently Employed : Yes , but does not have a notice period [/P]\n[P]Year of experience in real estate : 5 years in Egypt .6months in Dubai [/P]\n[P]Company of Employment :          DGM investments [/P]\n[P]Professional background :             Real estate &amp; sales [/P]\n[P]Driver’s licence:                            Last stage.[/P]\n[P]Visa status:                                    Freelance      [/P]\n[P]Languages spoken:                        Arabic , English, French(beginner)[/P]\n[P]Level of proficiency in English:    Beginner [/P]\n[P]Knowledge on RE/MAX model:  Not much. Has a little knowledge of the[/P]\n[P]                                                      RE/MAX in Egypt. Basic [/P]\n[P] [/P]\n[P]Observation : Looking for a change [/P]"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2247041,
+    "Created": "10/20/2025 12:12:31 PM",
+    "EntityId": 6273,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Call on 20 Oct. Meeting Scheduled on 22 Oct at 3pm"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246585,
+    "Created": "10/16/2025 2:38:18 PM",
+    "EntityId": 6274,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source of lead : Indeed \nSpeaks only Arabic"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 6470,
+    "Created": "10/16/2025 2:49:05 PM",
+    "EntityId": 6275,
+    "AuthorId": 1166,
+    "OwnerId": 6275,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "10/16/2025 2:49:05 PM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": ""
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246588,
+    "Created": "10/16/2025 2:49:02 PM",
+    "EntityId": 6275,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P][/P]\n[P]Source of lead : Indeed [/P]\n[P]Note in eligible :[/P] [P]Does not live in Dubai . He is reachable on a Pakistan number.[/P]"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 6494,
+    "Created": "10/20/2025 12:43:19 PM",
+    "EntityId": 6276,
+    "AuthorId": 1166,
+    "OwnerId": 6276,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "10/20/2025 12:43:19 PM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nOffice Meeting\n[/p]"
+  },
+  {
+    "Type": "Activity",
+    "Id": 7367,
+    "Created": "11/14/2025 9:25:14 AM",
+    "EntityId": 6276,
+    "AuthorId": 1275,
+    "OwnerId": 6276,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/14/2025 9:25:14 AM",
+    "Completed": "N",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nFollow up call made.\nHe could not come for the prior scheduled interviews as he does not have time.\nHe is interested in working with us , but does not have time to come for the interview , except on Saturday.\nHe was also not able to intimate us .\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246609,
+    "Created": "10/16/2025 3:09:16 PM",
+    "EntityId": 6276,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Murtada Ibrahim (0557890717)[/P]\n[P][URL=mailto:Imurtada647@gmail.com]Imurtada647@gmail.com[/URL][/P]\n[P]Source of lead : Indeed[/P]\n[P] [/P]\n[P]Nationality :                    Sudanese [/P]\n[P]Currently Employed  :     Yes [/P]\n[P]Year of experience in real estate : Nil  (referral) [/P]\n[P]Company of Employment :           Ministry of Labour[/P]\n[P]Role :                                             Operation Operations coordinator [/P]\n[P]Professional background :             Call center, CX ,HR    [/P]\n[P]Driver’s licence:                             Yes [/P]\n[P]Visa status:                                     Company  issued   [/P]\n[P]Languages spoken:                         English &amp; Arabic [/P]\n[P]Level of proficiency in English:       Basic [/P]\n[P]Knowledge on RE/MAX model: Did not know. Did not have the time to look up for info.[/P]\n[P] [/P]\n[P] [/P]Ratings :2.5"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2247061,
+    "Created": "10/20/2025 12:42:49 PM",
+    "EntityId": 6276,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Call on 20 Oct, Scheduled a meeting on 31 Oct "
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246614,
+    "Created": "10/16/2025 3:29:54 PM",
+    "EntityId": 6277,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source of lead : Indeed\nNationality : Indian \nDOB :  2/5/1992\nLanguages spoken:   English , Hindi , Tamil, Malayalam \nDriver’s licence:         No. Plans to apply once he gets employment \nVisa status:                Visit \nPlace of residence :    Currently in Dubai as a visitor   \nCurrently Employed :  No \nWhich Company:        N/A\nDesignation:               N/A\nNumber of years in the role: N/A \nProfessional background :     Purchase /coordinator \nAny exp in real estate:            No \nLevel of proficiency in English:  Basic \nKnowledge on RE/MAX model: No knowledge \n\nNotes: Applicant had no knowledge of the company or position he expressed interest in.\nHe was previously on Al Fathan, in Purchase. Was in his previous role for 2 years. Had to leave due to family reasons.\nLooking for a role in Purchase or as a coordinator.\n\n\n\nRatings : 1"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246676,
+    "Created": "10/16/2025 3:45:14 PM",
+    "EntityId": 6278,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source : Indeed \nNot contactable when called.\nThere is no local UAE number .\nPosition mentioned on the CV is Digital marketing"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246691,
+    "Created": "10/16/2025 4:37:51 PM",
+    "EntityId": 6279,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : Indeed [/P]\n[P]Languages spoken:   English , Hindi , Urdu , Telegu[/P]\n[P]Visa status:                        Visit visa     [/P]\n[P]Place of resident :              Dubai[/P]\n[P]Currently Employed  :        Not employed[/P]\n[P] Professional background : Customer services[/P]\n[P]Any exp in real estate: Has a little knowledge of real estate in India , as her family was in construction.[/P]\n[P]Level of proficiency in English:   Basic[/P]\n[P]Knowledge on RE/MAX model: Does not have any knowledge [/P]\n[P] [/P]\n[P]Notes : No experience in the UAE [/P]\n[P]Ratings : 1[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246694,
+    "Created": "10/16/2025 4:43:15 PM",
+    "EntityId": 6280,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "First call made.\nDisconnected the call"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2246695,
+    "Created": "10/16/2025 4:53:59 PM",
+    "EntityId": 6280,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source: Indeed \nCalled back \n Notes: \n[P][/P]\n[P]Languages spoken:  English , Hindi, Telegu, Malyalam [/P]\n[P]Driver’s licence:    No[/P] [P]Visa status:          Visit[/P]\n[P]Place of resident :  Dubai[/P]\n[P]Professional background : Customer service at the Airport (India)[/P]\n[P]Any exp in real estate: In India [/P]\n[P]Level of proficiency in English: Basic [/P]\n[P]Knowledge on RE/MAX model: None [/P]\n[P] [/P]\n[P]Notes :[/P]\n[P]Shobin is ready to work on commission basis.[/P]\n[P]He has worked as an agent in India.[/P]\n[P]No experience in the UAE.[/P]\n[P] [/P]\n[P]Ratings :2[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246714,
+    "Created": "10/17/2025 3:40:42 PM",
+    "EntityId": 6281,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Disqualified as he does not have a contactable numbers"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246717,
+    "Created": "10/17/2025 3:49:40 PM",
+    "EntityId": 6282,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source : Source : LinkedIn[P][/P]Disqualified - Lives in Pakistan"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246731,
+    "Created": "10/17/2025 7:48:30 PM",
+    "EntityId": 6283,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source : LinkedIn[P][/P]Disconnected the call when tried to contact him"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2255152,
+    "Created": "11/14/2025 11:09:12 AM",
+    "EntityId": 6283,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Call answered - Not Interested Anymore."
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 7370,
+    "Created": "11/14/2025 9:38:30 AM",
+    "EntityId": 6284,
+    "AuthorId": 1275,
+    "OwnerId": 6284,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/14/2025 10:49:41 AM",
+    "Completed": "N",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nNot a contactable number .\nMessage sent to request contact.\nAhmad is currently out of the country.\nHe will be back on the 26th . \nHe is aware of the comm based role .\nIs willing to visit us and discuss .\nAwaiting time slot from Ahmad.\nIs contactable via wasup.\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246734,
+    "Created": "10/17/2025 8:05:17 PM",
+    "EntityId": 6284,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : Linkedln[/P]\n[P]Nationality :                 Egyptian [/P] [P]Place of residence :      Abu Dhabi [/P]\n[P]Currently employed :   Yes [/P]\n[P]Visa status :                   Company visa [/P]\n[P]Employment :                Minister of Interior (Abu Dhabi)[/P]\n[P]Designation :                 Support officer[/P]\n[P]Number of years :          8yrs [/P]\n[P]Languages spoken :       English, Arabic[/P]\n[P]Experience in real estate :   Nil [/P]\n[P]Have you heard of Remax : Only from the LinkedIn profile[/P]\n[P] Notes: Ahmad is eager to get into the real estate industry, as he feels his years of experience in Customer service and networking  will help him to excel.[/P]\n[P]He lives in Abu Dhabi but is willing to relocate to Dubai. He could consider working on a commission basis, depending on the Company.[/P]\n[P] [/P]\n[P]Rating : 4[/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246737,
+    "Created": "10/17/2025 8:20:42 PM",
+    "EntityId": 6285,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source : Linkedln\nCurrently residing in Ajman, but ready to rellocate to Dubai.\nVisa status : Disaster visa\nQueried about the basic salary. When informed this was a commission based role, Ahmed stated that he had a job opportunity that he would be taking up next week.\n\nRating : 1"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246746,
+    "Created": "10/18/2025 9:05:11 AM",
+    "EntityId": 6286,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : Linkedln[/P]\n[P]Place of residence :        Dubai[/P]\n[P]Currently employed :      No[/P]\n[P] Visa status :                    Visit [/P]\n[P]Last  employment :           In Egypt [/P]\n[P] Designation :                   Customer service &amp; Manager[/P]\n[P] Number of years :            2years[/P]\n[P] Languages spoken :          Arabic, English[/P]\n[P] Experience in real estate : Nil[/P]\n[P] Have you heard of Remax: Yes. Basic knowledge[/P]\n[P] Notes:[/P]\n[P]Very polite and well-mannered ,but struggles with communicating in basic English. Has arrived in Dubai on the 2nd of Oct[/P]\n[P]Looking for a career in sales and customer service. [/P]\n[P]Comm based role was not mentioned to him.[/P]\n[P] [/P]\n[P] [/P]\n[P] [/P]\n[P]Rating : 2 [/P]\n[P]Based on communicating in English &amp; lack of experience in Real estate.[/P]\n[P] [/P]\n[P] [/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246749,
+    "Created": "10/18/2025 9:12:33 AM",
+    "EntityId": 6287,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source : LinkedIn\nIndian number on his CV.\nUnable to contact when called.\n\nCore competencies as expressed in his CV \nBusiness Development &amp; Lead Generation \n• Sales Strategy &amp; Client Conversion \n• CRM &amp; Customer Retention \n• Administrative Support &amp; Coordination \n• Retail Branding &amp; In-Store Promotion \n• Inventory Control &amp; Vendor Negotiation \n• Market Research &amp; Product Planning \n• MSOffice (Excel, PowerPoint, Word)"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246752,
+    "Created": "10/18/2025 9:22:07 AM",
+    "EntityId": 6288,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Iranian contact [/P]\n[P]No answer when called [/P]\n[P]Experience : Forex trading and financial advisor [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246755,
+    "Created": "10/18/2025 9:29:41 AM",
+    "EntityId": 6289,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Contact on the CV is not valid [/P]\n[P]Core competencies as mentioned on his CV.[/P]\n[P]Talent Acquisition | Employee Engagement | HR Administration | Performance Management | Learning &amp; Development | Onboarding | HR Analytics | Diversity &amp; Inclusion | HR Strategy[/P]"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 6476,
+    "Created": "10/18/2025 9:38:07 AM",
+    "EntityId": 6290,
+    "AuthorId": 1166,
+    "OwnerId": 6290,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "10/18/2025 9:38:07 AM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nNote : DOB cannot be added due to a technical error\n[/p]\n[p]\n\n[u][b]LUAN DEVA[/b][/u]( Swiss contact number)\n[/p]\n[p]\nStrong skill set\nNationality : Swiss\nGood CV with cross border consultation experience\nAsset management , accounts , investments\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2247098,
+    "Created": "10/20/2025 2:34:15 PM",
+    "EntityId": 6290,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Call on 20 Oct, no response\nWhatsApp msg sent\nSource : LinkedIn"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246762,
+    "Created": "10/18/2025 9:46:50 AM",
+    "EntityId": 6291,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Mohamed Khamis( Egyptian contact number) [/P]\n[P]From the real estate in Egypt.[/P]\n[P]Lawyer (parallel profession)[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246765,
+    "Created": "10/18/2025 9:51:36 AM",
+    "EntityId": 6292,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Egyptian contact number [/P]\n[P]Real estate experience in Egypt[/P]\n[P]Skills set as mentioned on the CV[/P]\n[P]Exceptional communication and networking skills Team spirit and independent work Ability to work under pressure and multitask Ability to follow instructions and achieve quality result[/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246768,
+    "Created": "10/18/2025 10:04:03 AM",
+    "EntityId": 6293,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Iranian contact number on the CV [/P]\n[P]\nCivil engineer (construction)[/P]\n[P]Project management[/P]\n[P]Real estate[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246771,
+    "Created": "10/18/2025 10:08:15 AM",
+    "EntityId": 6294,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Lead : LinkedIn[/P]\n[P][/P]\n[P](Dubai contact)[/P]\n[P]Driver by profession [/P]\n[P]Office support [/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246774,
+    "Created": "10/18/2025 10:12:47 AM",
+    "EntityId": 6295,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Hajar Rahmouni[/P] [P]Contact : Moroccan number [/P]\n[P]Property management specialist [/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246789,
+    "Created": "10/18/2025 10:25:18 AM",
+    "EntityId": 6296,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Contact number (Egypt )[/P]\n[P]Real estate/ Sales / Business admin specialists [/P]"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 7398,
+    "Created": "11/14/2025 1:25:52 PM",
+    "EntityId": 6297,
+    "AuthorId": 1275,
+    "OwnerId": 6297,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/14/2025 1:25:52 PM",
+    "Completed": "N",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nCall answered - Looking for Basic Salary and not open to commission base.\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246791,
+    "Created": "10/18/2025 10:32:53 AM",
+    "EntityId": 6297,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Lead : LinkedIn[/P]\n[P][/P]\n[P]No answer when contacted [/P]\n[P]Resident of Sharjah[/P]\n[P]Teacher and content creator [/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246794,
+    "Created": "10/18/2025 10:37:57 AM",
+    "EntityId": 6298,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Resdident of TL – India[/P]\n[P]Fresher[/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 6500,
+    "Created": "10/20/2025 2:57:35 PM",
+    "EntityId": 6299,
+    "AuthorId": 1166,
+    "OwnerId": 6299,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "10/20/2025 2:57:54 PM",
+    "Completed": "Y",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nCall on 20 Oct, No response\n[/p]"
+  },
+  {
+    "Type": "Activity",
+    "Id": 7368,
+    "Created": "11/14/2025 9:28:18 AM",
+    "EntityId": 6299,
+    "AuthorId": 1275,
+    "OwnerId": 6299,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/14/2025 10:32:53 AM",
+    "Completed": "N",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nNo response.\nMssg sent to connect.\nResponded : Is already employed somewhere else as an agent.\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246796,
+    "Created": "10/18/2025 10:55:12 AM",
+    "EntityId": 6299,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P][/P]\n[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Place of residence :      Dubai [/P] [P]Currently employed :   No [/P]\n[P]Visa status :                 Cancelled visa [/P]\n[P]Last  employment :       Apex Gulf [/P]\n[P]Designation :               Accounts recievable [/P]\n[P]Languages spoken :     English &amp; Hindi [/P]\n[P]Experience in real estate : 8months [/P]\n[P] Knowledge of Remax :[/P]\n[P]Basic (affiliated with real estate) [/P]\n[P][/P]\n[P]Notes: [/P]\n[P]Background in Shipping , logistics &amp; real estate[/P]\n[P]Has been in Dubai for 15 years, and has a good network from his work experience.[/P]\n[P]Is willing to work on a commission based structure.[/P]\n[P]Wants to get into the real estate industry due to high earning potential.[/P]\n[P] Has worked with Footprints (rentals) for 8 months.[/P]\n[P] [/P]\n[P]Rating/reason : 3 [/P]\n[P]Based on his experience in real estate and willingness to earn.[/P]\n[P] [/P]\n[P] [/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246799,
+    "Created": "10/18/2025 11:02:27 AM",
+    "EntityId": 6300,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P][/P]\n[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Morrocon contact [/P]\n[P]Administrative and real estate professional [/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246801,
+    "Created": "10/18/2025 11:12:36 AM",
+    "EntityId": 6301,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Placement roles as per CV[/P]\n[P]Sales , marketing , PA , teacher , co-ordination officer [/P]\n[P] This candidate called back:[/P]\n[P]Looking for roles in office administration, teaching and sales and marketing.[/P]\n[P]Has arrived into Dubai on the 2nd of September.[/P]\n[P]Has worked with a real estate company in Islamabad.[/P]\n[P] He would require a basic  salary[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246804,
+    "Created": "10/18/2025 11:32:14 AM",
+    "EntityId": 6302,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Based in Dubai.[/P]\n[P]Has been a resident for the last 10years as an Electrical Engineer.[/P]\n[P]Does not have any real estate experience, but is willing to learn.[/P]\n[P]Requires a salary. Not willing to work on commission based structure.[/P]\n[P] [/P]\n[P]Communication in English – Poor[/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 7365,
+    "Created": "11/14/2025 9:18:42 AM",
+    "EntityId": 6303,
+    "AuthorId": 1275,
+    "OwnerId": 6303,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/14/2025 9:18:42 AM",
+    "Completed": "N",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nCalled to follow up.\nShe is looking for a salary based, and has asked for details of the job role before coming in for an interview .\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246807,
+    "Created": "10/18/2025 11:50:17 AM",
+    "EntityId": 6303,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Place of residence :       Dubai [/P]\n[P]Currently employed :     Yes [/P]\n[P]Visa status :                    Company visa [/P]\n[P]Driver’s licence :             No[/P]\n[P]Designation :                  Guest services /reservations[/P]\n[P]Number of years :          Under a year [/P]\n[P]Languages spoken :       Bengali, English , Hindi [/P]\n[P]Experience in real estate : Nil [/P]\n[P]Have you heard of Remax: Yes basic knowledge [/P]\n[P] [/P]\n[P]Notes: [/P]\n[P]Looking to switch into a sales role, as she has stated her strength is in generating leads, meeting targets and sales.[/P]\n[P]Commision based role was not discussed [/P]\n[P] [/P]\n[P][/P]\n[P]Rating : 2.5 [/P]\n[P]Based in communication and experience.[/P]\n[P]Proficiency in English – Intermediate [/P]\n[P] [/P]\n[P] [/P]"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2247127,
+    "Created": "10/20/2025 3:20:45 PM",
+    "EntityId": 6303,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Call on Oct 20, Invited her to the career night. She seemed to prefer a salary based job"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246810,
+    "Created": "10/18/2025 12:05:01 PM",
+    "EntityId": 6304,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Place of residence :      Dubai [/P] [P]Currently employed :  Pack Employment Services [/P]\n[P]Visa status :                 Employment visa [/P]\n[P]Driver’s licence :          No [/P]\n[P]Last  employment :      N/A[/P]\n[P]Designation :              Sales officer [/P]\n[P]Number of years :       5months [/P]\n[P]Languages spoken :     English , Hindi, Marathi[/P]\n[P]Experience in real estate : Nil [/P]\n[P]Have you heard of Remax: NO [/P]\n[P] Notes: Looking for an opportunity in Customer services, documentation or client services.[/P]\n[P]Commission based structure was not discussed.[/P]\n[P]Rating : 2.5 [/P]\n[P]Based on experience in the real estate.[/P]\n[P]Level of proficiency in English - Intermediate[/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246815,
+    "Created": "10/18/2025 12:16:47 PM",
+    "EntityId": 6305,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]Source : LinkedIn[/P]\n[P][/P]\n[P]Morrocon contact [/P]\n[P]Administrative and real estate professional [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2246817,
+    "Created": "10/18/2025 12:22:20 PM",
+    "EntityId": 6306,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P]No response [/P]\n[P]Contact number – UAE[/P]\n[P]Current employment status- Not specified on the CV[/P]\n[P] [/P]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2251128,
+    "Created": "10/30/2025 6:16:25 PM",
+    "EntityId": 6307,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Source : Linkedln"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 7362,
+    "Created": "11/14/2025 8:56:47 AM",
+    "EntityId": 6308,
+    "AuthorId": 1275,
+    "OwnerId": 6308,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "11/21/2025 7:10:57 AM",
+    "Completed": "Y",
+    "ResponsibleId": 1275,
+    "Description": "[p]\nInitial call made- Requested by applicant to call back as he had just woken up, and required time to recieve the call.\n\nNationality                 : Egyptian \nTenure in Dubai          :  1year 3months \nEmployed                   : Americano (Sales rep)\nTenure                         : 8 months\nDriving Licence            : Yes (No car) \nVisa                              : Employment visa \nReal estate experience : Nil \nHas never heard of RE/MAX \n\n\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2270436,
+    "Created": "1/7/2026 6:51:42 AM",
+    "EntityId": 6605,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Tried to call but couldn&#39;t get through. Sent DM on Whatsapp."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2272483,
+    "Created": "1/13/2026 6:38:04 AM",
+    "EntityId": 6605,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "-Tried to call but couldn&#39;t get through. Sent DM on Whatsapp."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272611,
+    "Created": "1/13/2026 9:38:17 AM",
+    "EntityId": 6617,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered. Fresher. Needs Basic Salary. Keep touch on WhatsApp for future opportunities."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2276992,
+    "Created": "1/30/2026 2:11:59 PM",
+    "EntityId": 6618,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*]J&amp;J working for 10 years and be leaving in two weeks\n[*]Dubai 13 years and Gulf area for 20 years\n[*]Interested to join, project manager for J&amp;J world wide\n[*]Need follow-up after two weeks\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272604,
+    "Created": "1/13/2026 9:18:11 AM",
+    "EntityId": 6620,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called but cancelled the call. Sent DM."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2272631,
+    "Created": "1/13/2026 9:58:23 AM",
+    "EntityId": 6620,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Replied and wanted to call. Secured meeting 14th JAN at 12:00 Noon.\n\n[DISK FILE ID=229]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272593,
+    "Created": "1/13/2026 9:06:36 AM",
+    "EntityId": 6621,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called, no answer. Sent DM  to have a call at 1:30PM."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2272744,
+    "Created": "1/13/2026 2:59:52 PM",
+    "EntityId": 6621,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Finance 2+ years, Sales 3+ years, Freelance Finance auditor, Wanted to explore real estate. Set meeting 19th Jan at 1PM."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272488,
+    "Created": "1/13/2026 6:40:08 AM",
+    "EntityId": 6626,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Call , No answer. Sent DM on Whatsapp."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272492,
+    "Created": "1/13/2026 6:42:19 AM",
+    "EntityId": 6627,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and Answered, confused since he&#39;s not interested to know about the real estate business and confirmed to be off the list."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272497,
+    "Created": "1/13/2026 6:44:41 AM",
+    "EntityId": 6628,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered. Got investors fr om international asking him wh ere to invest in real estate. Wanting to know how it works and take advantage of the opportunities at hand. Wants to do a phone call with Sarah at 4 PM"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272507,
+    "Created": "1/13/2026 6:48:51 AM",
+    "EntityId": 6629,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- 12th JAN. Tried to call but number not valid. Email sent about details."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272511,
+    "Created": "1/13/2026 6:51:10 AM",
+    "EntityId": 6630,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered, asked for a Call tomorrow 2PM"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272538,
+    "Created": "1/13/2026 8:00:08 AM",
+    "EntityId": 6631,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered. 1+ real estate. Real estate Sales. Own Visa. Secured online meeting at 10:30 AM today, 13th JAN"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2272654,
+    "Created": "1/13/2026 11:36:29 AM",
+    "EntityId": 6631,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Online meeting outcome, scheduled in person meeting on 15th JAN at 10AM"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272558,
+    "Created": "1/13/2026 8:28:31 AM",
+    "EntityId": 6632,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered. Broker .Asked to schedule a meeting at 15:00 today."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2272586,
+    "Created": "1/13/2026 8:52:09 AM",
+    "EntityId": 6633,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called, no answer. Sent DM."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2272591,
+    "Created": "1/13/2026 9:01:14 AM",
+    "EntityId": 6633,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Replied to have a call at 1PM\n[DISK FILE ID=228]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2276715,
+    "Created": "1/29/2026 1:25:19 PM",
+    "EntityId": 6649,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "-19 years old\n- Not qualified as agent, student at UNI. Studying finance.\n- Googlemeet done, thinking to join the referral."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2278600,
+    "Created": "2/9/2026 7:05:32 AM",
+    "EntityId": 6649,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "He&#39;s 19, still studying. Had google meet with him, he&#39;s unqualified"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2276716,
+    "Created": "1/29/2026 1:26:26 PM",
+    "EntityId": 6653,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "-called and scheduled google meet but no show."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2276800,
+    "Created": "1/29/2026 2:21:14 PM",
+    "EntityId": 6663,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- called and answered\n- Team Leader\n- Sent email &quot; Proposal: Team Leader Collaboration under RE/MAX ZAM Model&quot;\n- informed through call with Sarah; needs to think about it."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2278595,
+    "Created": "2/9/2026 6:58:17 AM",
+    "EntityId": 6663,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Online Meeting on Jan 8, 2026\nShe was interested and wanted to hire a team and work on 80% model, so we scheduled an office meeting "
+  },
+  {
+    "Type": "Comment",
+    "Id": 2278597,
+    "Created": "2/9/2026 7:01:23 AM",
+    "EntityId": 6663,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Office Meeting with Sarah and Faisal. She has a business with her family (husband). She asked about the model and all the details. She said  she will establish a team and get back to me"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2278598,
+    "Created": "2/9/2026 7:03:20 AM",
+    "EntityId": 6663,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "I called her on Jan 29. She said during this period she&#39;s overwhelmed with work and she needs more time, but she&#39;ll get back"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2279605,
+    "Created": "2/16/2026 12:11:39 PM",
+    "EntityId": 6665,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "An offer has been sent today. Waiting for documents and signature"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 10253,
+    "Created": "2/10/2026 7:39:41 AM",
+    "EntityId": 6666,
+    "AuthorId": 1166,
+    "OwnerId": 6666,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "2/10/2026 7:39:41 AM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nFollow up Call\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2278768,
+    "Created": "2/10/2026 7:39:10 AM",
+    "EntityId": 6666,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "She attended Zam&#39;s event for Mardi projects last year. She&#39;s working with Luxury properties (Remax previously). Has connections with developers and Remax international network."
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 10254,
+    "Created": "2/10/2026 7:44:16 AM",
+    "EntityId": 6667,
+    "AuthorId": 1166,
+    "OwnerId": 6667,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "2/10/2026 7:44:16 AM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nFollow up call\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2278773,
+    "Created": "2/10/2026 7:43:51 AM",
+    "EntityId": 6667,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Highly experienced especially in secondary sales. Working currently with a small office owned by a local person. Asked for a sales manager/team leader position. Potential but he seems to be interested in a paid position rather than Remax model"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2257974,
+    "Created": "11/25/2025 9:55:07 AM",
+    "EntityId": 6325,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Experience: Specialized investment profile. \n\nNotes: Overqualified for standard sales role.\n\nInterview: ATIF KHAN - Friday, November 21⋅4:00 – 4:30pm - No Show"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2258103,
+    "Created": "11/25/2025 11:42:40 AM",
+    "EntityId": 6332,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Communicate to WhatsApp and ask the best number to call. - No reply, yet."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2259489,
+    "Created": "12/3/2025 8:48:22 AM",
+    "EntityId": 6342,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "-Called to confirm meeting at 11AM today 3 DEC but asked to Reschedule for 5th DEC at 1PM."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265913,
+    "Created": "12/26/2025 10:05:36 AM",
+    "EntityId": 6343,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered.\n- Booked Online Meeting on 29th DEC at 3 PM.\n- Project Manager 2+ years.\n- No Real Estate Experience but interested on knowing more.\n- Send details on WhatsApp and Confirmed to attend the meeting."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2277482,
+    "Created": "2/2/2026 9:09:30 AM",
+    "EntityId": 6345,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Not interested, he joined another company"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265915,
+    "Created": "12/26/2025 10:17:50 AM",
+    "EntityId": 6346,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Unavailable\n- Sent DM on WhatsApp for details."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265937,
+    "Created": "12/26/2025 11:35:39 AM",
+    "EntityId": 6347,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Unavailable, Sent DM on WhatsApp for details."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265952,
+    "Created": "12/26/2025 11:50:29 AM",
+    "EntityId": 6348,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Answered but wants call back , Tried to send  DM on WhatsApp for details but also unavailable."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265953,
+    "Created": "12/26/2025 11:59:21 AM",
+    "EntityId": 6349,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer, Sent DM on WhatsApp for details."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265980,
+    "Created": "12/26/2025 1:28:25 PM",
+    "EntityId": 6351,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered, 20+ years in business consulting, Booked Online Meeting 29th DEC at 11:00 AM (Confirmed)"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2268097,
+    "Created": "12/29/2025 10:58:10 AM",
+    "EntityId": 6352,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered. Not Interested."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2268105,
+    "Created": "12/29/2025 11:04:06 AM",
+    "EntityId": 6353,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Unavailable, Sent DM on WhatsApp for details."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2268137,
+    "Created": "12/29/2025 12:27:03 PM",
+    "EntityId": 6354,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered. 2+ years in real estate. In the office and can&#39;t talked freely but asked to send the office location and website to know more about us and will keep in touch."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262220,
+    "Created": "12/11/2025 12:10:49 PM",
+    "EntityId": 6435,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260783,
+    "Created": "12/4/2025 4:09:47 PM",
+    "EntityId": 6481,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Dubai 5+ years\n- 3+ years working on Real Estate as admin\n- wanted to set meeting but unable due to working hours\n- ask for the link and needed details and confirmed to join the VCN3"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260873,
+    "Created": "12/5/2025 7:11:45 AM",
+    "EntityId": 6487,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Sent Meeting invite with Sarah for 8th DEC at 09:00 AM"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2265196,
+    "Created": "12/23/2025 8:18:57 AM",
+    "EntityId": 6487,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered.\n- Asked to him later at 4PM to confirmed with the meeting for tomorrow 24th DEC."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260778,
+    "Created": "12/4/2025 3:34:59 PM",
+    "EntityId": 6498,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- New to Dubai 5+ months\n- Working as waste management company\n- 2+ years Experience in Property Management in Ghana\n- No Real Estate Experience in Dubai\n- Asked for the needed details for the VCN3"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2261725,
+    "Created": "12/9/2025 1:19:19 PM",
+    "EntityId": 6498,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2261729,
+    "Created": "12/9/2025 1:45:27 PM",
+    "EntityId": 6503,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2261730,
+    "Created": "12/9/2025 1:49:21 PM",
+    "EntityId": 6506,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2261731,
+    "Created": "12/9/2025 1:53:15 PM",
+    "EntityId": 6509,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called and answered - said &quot;not aware of the event and I am on the bus now.&quot; - end the call.[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262202,
+    "Created": "12/11/2025 11:16:41 AM",
+    "EntityId": 6512,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262210,
+    "Created": "12/11/2025 11:24:03 AM",
+    "EntityId": 6514,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called and answered but the call quality not good (Algeria)[/P]\n[*][P]It seems all the automation on this Lead is &quot;Unsuccessful&quot;[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262211,
+    "Created": "12/11/2025 11:31:58 AM",
+    "EntityId": 6515,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]No. Unavailable[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262212,
+    "Created": "12/11/2025 11:44:12 AM",
+    "EntityId": 6516,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]No. Unavailable[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262213,
+    "Created": "12/11/2025 11:47:19 AM",
+    "EntityId": 6521,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]No Answer.[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262214,
+    "Created": "12/11/2025 11:51:29 AM",
+    "EntityId": 6529,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262215,
+    "Created": "12/11/2025 11:55:13 AM",
+    "EntityId": 6531,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called - No Answer[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262218,
+    "Created": "12/11/2025 12:05:57 PM",
+    "EntityId": 6533,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called and Answered[/P]\n[*][P]Just in India and ask me to connect on WhatsApp.[/P]\n[*][P]Sent message on WhatsApp the reason for calling.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260900,
+    "Created": "12/5/2025 9:52:21 AM",
+    "EntityId": 6546,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- He got the Ads from Tiktok\n- Real Estate Experience 3+ years - Khalifa Alsuwaidi Real Estate\n- Own Visa\n- Drivers License on process to getting\n- Confirmed to attend the VCN 3\n- Booked meeting with Sarah on 9th Dec at 01:00 PM"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2261621,
+    "Created": "12/9/2025 7:25:52 AM",
+    "EntityId": 6546,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Sent reminder for the meeting at 1PM"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260901,
+    "Created": "12/5/2025 10:09:25 AM",
+    "EntityId": 6547,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Leads from Instagram\n- Sales 18+ years in GOLD Market\n- Really interested on knowing more about Real Estate\n- Asked for the details and links for him to join the VCN - sent it through WhatsApp"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260908,
+    "Created": "12/5/2025 11:20:19 AM",
+    "EntityId": 6548,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2260910,
+    "Created": "12/5/2025 11:51:44 AM",
+    "EntityId": 6548,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Had a quick call\n- Real Estate Business 1+ years\n- Know about REMAX but wanted to know more about REMAXZAM.\n- Asked for the detail and links about the VCN3, Office Location and remaxzam.ae website."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260919,
+    "Created": "12/5/2025 12:38:48 PM",
+    "EntityId": 6551,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- One of the first batch to introduce EMMAR Properties to the market.\n- Dubai 28+ years\n- Business - Commercial Fit outs.\n- Asked for the VCN details\n- Sent all the details asked including the office location and website.\n- Booked meeting with Sarah on 9th DEC at 03:00 PM"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2261622,
+    "Created": "12/9/2025 7:39:37 AM",
+    "EntityId": 6551,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called to confirm if he will be coming to the meeting at 1PM today - No Answer\n- Sent reminder on whatsapp"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260921,
+    "Created": "12/5/2025 12:54:57 PM",
+    "EntityId": 6552,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Answered the call but confused on what is VCN.\n- Asked me to call back after 2hours.\n- Sent her needed details on WhatsApp to remind here about it, other links to know us more better."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260943,
+    "Created": "12/5/2025 1:47:06 PM",
+    "EntityId": 6558,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer\n- Sent message on whatsapp about the VCN 3 and our location with website."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2260951,
+    "Created": "12/5/2025 2:06:32 PM",
+    "EntityId": 6558,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Vinita called back and wanted to know more about VCN 3\n- Relationship Manager back in Nepal and now working as HR Executive for 5 month in Dubai\n- Asked for VCN 3 Link to join secure slot and needed detail about REMAX ZAM."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260948,
+    "Created": "12/5/2025 1:54:17 PM",
+    "EntityId": 6560,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer\n- Sent needed details for the VCN 3 and office location and website."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260952,
+    "Created": "12/5/2025 2:09:51 PM",
+    "EntityId": 6561,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Answered and confirmed the add from Tiktok\n- Part time Real Estate Experience in Ethiopia 3+ years\n- 2+ months in Dubai as Relationship Manager Officer\n- Confirmed booked a slot for the VCN 3 but asked for the link to make sure.\n- Sent all need details about the VCN 3 and for REMAX Zam."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260953,
+    "Created": "12/5/2025 2:30:24 PM",
+    "EntityId": 6562,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Answered and wanted to know more about the VCN 3\n- Businesswoman - Media Marketing Company 1+ year\n- Confirmed will attend and asked for the needed details for the event.\n- Sent details for the event and company location and website.\n- Asked to keep in touch on WhatsApp."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2260955,
+    "Created": "12/5/2025 2:34:36 PM",
+    "EntityId": 6563,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer\n- Tried to connect on WhatsApp but not available."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2264243,
+    "Created": "12/17/2025 11:54:01 AM",
+    "EntityId": 6580,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- [URL=mailto:hussainalibabarb2@gmail.com]hussainalibabarb2@gmail.com[/URL] - other email\n- Called for follow up but no answer, yet.\n- sent message on Whatapp to inform the reason."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2261714,
+    "Created": "12/9/2025 12:33:55 PM",
+    "EntityId": 6581,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and asked: What made him missed the VCN 3\n     - He totally forgot about it and was just checking around."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262222,
+    "Created": "12/11/2025 12:35:04 PM",
+    "EntityId": 6582,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called and answered.[/P]\n[*][P]10+ years in Real Estate - UCF Real Estate Broker[/P]\n[*][P]Booked meeting on 12th Dec at 01:00 PM[/P]\n[/LIST]"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2263225,
+    "Created": "12/15/2025 2:47:16 PM",
+    "EntityId": 6582,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called and Answered[/P]\n[*][P]Had food poisoning that she didn&#39;t show up on that last meeting.[/P]\n[*][P]Rescheduled meeting 17th DEC at 01:00 PM[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2262239,
+    "Created": "12/11/2025 2:01:06 PM",
+    "EntityId": 6583,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*][P]Called and Answered[/P]\n[*][P]15+ years in Dubai[/P]\n[*][P]10+ years working on Developers[/P]\n[*][P]5+ years on Real Estate on and off[/P]\n[*][P]Had Real Estate Company before and holiday homes.[/P]\n[*][P]Booked meeting 12th Dec at 10:00 AM.[/P]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2263532,
+    "Created": "12/16/2025 12:15:25 PM",
+    "EntityId": 6584,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer\n- Send message on WhatsApp regarding the call."
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 8488,
+    "Created": "12/16/2025 1:45:07 PM",
+    "EntityId": 6585,
+    "AuthorId": 1275,
+    "OwnerId": 6585,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "1/6/2026 7:35:20 AM",
+    "Completed": "Y",
+    "ResponsibleId": 1275,
+    "Description": "[p]\n- Callback and secure meeting with Sarah and Mr. Faisal\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2263616,
+    "Created": "12/16/2025 1:43:10 PM",
+    "EntityId": 6585,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and Answered\n- 22+ years in HSBC\n- Business: Housewise Mortage\n- Golden Visa\n- Wanted to get a call on 6th January at 3:30 PM to make a meeting with Sarah and requested Mr. Faisal to on the meeting"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2270079,
+    "Created": "1/6/2026 7:51:13 AM",
+    "EntityId": 6585,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[P][IMG WIDTH=450 HEIGHT=225]https://embarkgrowth.monday.com/protected_static/20752184/resources/2658980217/big-image.png[/IMG][/P][LIST]\n[*]Tried to call - no answer.\n[*]Sent DM for reminder.\n[/LIST]"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2270490,
+    "Created": "1/7/2026 12:18:40 PM",
+    "EntityId": 6585,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "[LIST]\n[*]Called and answered.\n[*]Confirmed meeting with Sarah and Faisal on Friday, 9th DEC at 2:30 PM.\n[*]Sent DM the details on Whatsapp.\n[*][IMG WIDTH=450 HEIGHT=218]https://embarkgrowth.monday.com/protected_static/20752184/resources/2662938673/big-image.png[/IMG]\n[/LIST]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2264314,
+    "Created": "12/17/2025 2:30:28 PM",
+    "EntityId": 6587,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and Answered but could hear clearly and agreed to send message on WhatsApp.\n- Send message on WhatsApp for the reason us calling."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265438,
+    "Created": "12/24/2025 12:21:13 PM",
+    "EntityId": 6590,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and no answer."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265444,
+    "Created": "12/24/2025 12:26:13 PM",
+    "EntityId": 6591,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered\n- got confused on what was the call more about but once explained, said &quot;Not interested&quot; "
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265446,
+    "Created": "12/24/2025 12:32:04 PM",
+    "EntityId": 6592,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called but only Voice Mail"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265448,
+    "Created": "12/24/2025 12:45:11 PM",
+    "EntityId": 6593,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered\n- Looking for JOB (Business Development / Sales )\n- Salary"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265451,
+    "Created": "12/24/2025 12:48:12 PM",
+    "EntityId": 6594,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered\n- Student Visa (expected graduation on April 2026)\n- Hotel HR\n- Looking for Real Estate Experience\n- Booked Meeting with Sarah tomorrow 25th DEC, at 02:00 PM"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2265642,
+    "Created": "12/25/2025 11:06:45 AM",
+    "EntityId": 6594,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and confirmed for the meeting but just got a message from her from WhatsApp that she&#39;s not coming due to not feeling well after the call.\n- Let her knew to keep touch and once available do online/ in person meeting."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2271075,
+    "Created": "1/9/2026 7:40:54 AM",
+    "EntityId": 6594,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Tried to call but &quot;phone is either switch off or outside coverage area&quot; - operator\n- DM sent on Whatsapp.\n\n[DISK FILE ID=n5412]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265898,
+    "Created": "12/26/2025 9:30:44 AM",
+    "EntityId": 6597,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer, Sent DM on WhatsApp for details."
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265900,
+    "Created": "12/26/2025 9:31:52 AM",
+    "EntityId": 6598,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer, Sent DM on WhatsApp for details. (2nd Call)"
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 8687,
+    "Created": "12/26/2025 10:30:13 AM",
+    "EntityId": 6599,
+    "AuthorId": 1275,
+    "OwnerId": 6599,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "12/31/2025 7:28:51 AM",
+    "Completed": "Y",
+    "ResponsibleId": 1275,
+    "Description": "[p]\n- Send Reminder on WhatsApp for possible meeting schedule.\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265902,
+    "Created": "12/26/2025 9:33:13 AM",
+    "EntityId": 6599,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer, Sent DM on WhatsApp for details. Called back to let me know, will talk after 20 minutes - on transit."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2265921,
+    "Created": "12/26/2025 10:27:49 AM",
+    "EntityId": 6599,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Called and answered.\n- Got meetings but wanted to have a call on Monday to have possible meeting schedule."
+  }
+],
+[
+  {
+    "Type": "Activity",
+    "Id": 10290,
+    "Created": "2/11/2026 2:19:33 PM",
+    "EntityId": 6600,
+    "AuthorId": 1166,
+    "OwnerId": 6600,
+    "TypeId": 6,
+    "ProviderId": "CRM_TODO",
+    "ProviderTypeId": 0,
+    "LastUpdated": "2/11/2026 2:19:33 PM",
+    "Completed": "N",
+    "ResponsibleId": 1166,
+    "Description": "[p]\nMake a call\n[/p]"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265904,
+    "Created": "12/26/2025 9:34:21 AM",
+    "EntityId": 6600,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- No Answer, Sent DM on WhatsApp for details. REPLIED: Connect at 4PM Today"
+  },
+  {
+    "Type": "Comment",
+    "Id": 2265998,
+    "Created": "12/26/2025 2:10:08 PM",
+    "EntityId": 6600,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Sent website and office location details.\n- Sameer will review and decide on an online or in-person meeting."
+  },
+  {
+    "Type": "Comment",
+    "Id": 2279001,
+    "Created": "2/11/2026 2:17:16 PM",
+    "EntityId": 6600,
+    "AuthorId": 1166,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "Had a scheduled call with him on Wednesday, Feb 11, 2026 at 3:30pm\n25 years experience in Banking\nReal Estate Freelancer since 1 year\nClosed 4 deals\nTraveling for 2 weeks\nAgreed to connect after he&#39;s back"
+  }
+],
+[
+  {
+    "Type": "Comment",
+    "Id": 2265911,
+    "Created": "12/26/2025 9:39:55 AM",
+    "EntityId": 6601,
+    "AuthorId": 1275,
+    "OwnerId": 0,
+    "TypeId": 0,
+    "ProviderId": null,
+    "ProviderTypeId": 0,
+    "LastUpdated": null,
+    "Completed": null,
+    "ResponsibleId": 0,
+    "Description": "- Phone - OFF , Sent DM on WhatsApp for details."
+  }
+]
+]

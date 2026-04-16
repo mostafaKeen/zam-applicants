@@ -1,0 +1,2169 @@
+{
+    "id": {
+        "type": "integer",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "ID",
+        "upperName": "ID"
+    },
+    "title": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Name",
+        "upperName": "TITLE"
+    },
+    "xmlId": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "External ID",
+        "upperName": "XML_ID"
+    },
+    "createdTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Created on",
+        "upperName": "CREATED_TIME"
+    },
+    "updatedTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Updated on",
+        "upperName": "UPDATED_TIME"
+    },
+    "createdBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Created by",
+        "upperName": "CREATED_BY"
+    },
+    "updatedBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Updated by",
+        "upperName": "UPDATED_BY"
+    },
+    "assignedById": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Responsible person",
+        "upperName": "ASSIGNED_BY_ID"
+    },
+    "opened": {
+        "type": "boolean",
+        "isRequired": true,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Available to everyone",
+        "upperName": "OPENED"
+    },
+    "webformId": {
+        "type": "integer",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Created by CRM form",
+        "upperName": "WEBFORM_ID"
+    },
+    "lastCommunicationTime": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last contact",
+        "upperName": "LAST_COMMUNICATION_TIME"
+    },
+    "begindate": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Started on",
+        "upperName": "BEGINDATE"
+    },
+    "closedate": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Finished on",
+        "upperName": "CLOSEDATE"
+    },
+    "companyId": {
+        "type": "crm_company",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Company",
+        "settings": {
+            "parentEntityTypeId": 4
+        },
+        "upperName": "COMPANY_ID"
+    },
+    "contactId": {
+        "type": "crm_contact",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "isDeprecated": true,
+        "title": "Contact",
+        "upperName": "CONTACT_ID"
+    },
+    "contactIds": {
+        "type": "crm_contact",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": false,
+        "title": "CONTACT_IDS",
+        "upperName": "CONTACT_IDS"
+    },
+    "contacts": {
+        "type": "crm_contact",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": false,
+        "title": "CONTACTS",
+        "upperName": "CONTACTS"
+    },
+    "observers": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": false,
+        "title": "Observers",
+        "upperName": "OBSERVERS"
+    },
+    "categoryId": {
+        "type": "crm_category",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Pipeline",
+        "upperName": "CATEGORY_ID"
+    },
+    "movedTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Stage change date",
+        "upperName": "MOVED_TIME"
+    },
+    "movedBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Stage changed by",
+        "upperName": "MOVED_BY"
+    },
+    "stageId": {
+        "type": "crm_status",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "statusType": "DYNAMIC_1038_STAGE_14",
+        "title": "Stage",
+        "upperName": "STAGE_ID"
+    },
+    "previousStageId": {
+        "type": "crm_status",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "statusType": "DYNAMIC_1038_STAGE_14",
+        "title": "Previous stage",
+        "upperName": "PREVIOUS_STAGE_ID"
+    },
+    "sourceId": {
+        "type": "crm_status",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "statusType": "SOURCE",
+        "title": "Source",
+        "upperName": "SOURCE_ID"
+    },
+    "sourceDescription": {
+        "type": "text",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Source information",
+        "upperName": "SOURCE_DESCRIPTION"
+    },
+    "mycompanyId": {
+        "type": "crm_company",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Your company details",
+        "settings": {
+            "isMyCompany": true,
+            "parentEntityTypeId": 4,
+            "isEmbeddedEditorEnabled": true
+        },
+        "upperName": "MYCOMPANY_ID"
+    },
+    "lastActivityBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last timeline activity added by",
+        "upperName": "LAST_ACTIVITY_BY"
+    },
+    "lastActivityTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last updated on",
+        "upperName": "LAST_ACTIVITY_TIME"
+    },
+    "isRecurring": {
+        "type": "boolean",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Recurring item",
+        "upperName": "IS_RECURRING"
+    },
+    "parentId1048": {
+        "type": "crm_entity",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "HR Employees",
+        "settings": {
+            "parentEntityTypeId": 1048
+        },
+        "upperName": "PARENT_ID_1048"
+    },
+    "lastCommunicationCallTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last call",
+        "upperName": "LAST_COMMUNICATION_CALL_TIME"
+    },
+    "lastCommunicationEmailTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last email",
+        "upperName": "LAST_COMMUNICATION_EMAIL_TIME"
+    },
+    "lastCommunicationImolTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last Open Channel conversation",
+        "upperName": "LAST_COMMUNICATION_IMOL_TIME"
+    },
+    "lastCommunicationWebformTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last CRM form submitted",
+        "upperName": "LAST_COMMUNICATION_WEBFORM_TIME"
+    },
+    "ufCrm8_1772192069412": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Phone",
+        "listLabel": "Phone",
+        "formLabel": "Phone",
+        "filterLabel": "Phone",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772192069412"
+    },
+    "ufCrm8_1772192889128": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "E-mail",
+        "listLabel": "E-mail",
+        "formLabel": "E-mail",
+        "filterLabel": "E-mail",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772192889128"
+    },
+    "ufCrm8_1772192916887": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Address",
+        "listLabel": "Address",
+        "formLabel": "Address",
+        "filterLabel": "Address",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772192916887"
+    },
+    "ufCrm8_1772192939863": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Job Title",
+        "listLabel": "Job Title",
+        "formLabel": "Job Title",
+        "filterLabel": "Job Title",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772192939863"
+    },
+    "ufCrm8_1772192959631": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Nationality",
+        "listLabel": "Nationality",
+        "formLabel": "Nationality",
+        "filterLabel": "Nationality",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772192959631"
+    },
+    "ufCrm8_1772193001136": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Joining Date",
+        "listLabel": "Joining Date",
+        "formLabel": "Joining Date",
+        "filterLabel": "Joining Date",
+        "settings": {
+            "DEFAULT_VALUE": {
+                "TYPE": "NONE",
+                "VALUE": ""
+            }
+        },
+        "upperName": "UF_CRM_8_1772193001136"
+    },
+    "ufCrm8_1772193012616": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Date of Birth",
+        "listLabel": "Date of Birth",
+        "formLabel": "Date of Birth",
+        "filterLabel": "Date of Birth",
+        "settings": {
+            "DEFAULT_VALUE": {
+                "TYPE": "NONE",
+                "VALUE": ""
+            }
+        },
+        "upperName": "UF_CRM_8_1772193012616"
+    },
+    "ufCrm8_1772193028487": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Preferred Name",
+        "listLabel": "Preferred Name",
+        "formLabel": "Preferred Name",
+        "filterLabel": "Preferred Name",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193028487"
+    },
+    "ufCrm8_1772193037231": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Area of Residency",
+        "listLabel": "Area of Residency",
+        "formLabel": "Area of Residency",
+        "filterLabel": "Area of Residency",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193037231"
+    },
+    "ufCrm8_1772193061103": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "326",
+                "VALUE": "Yes"
+            },
+            {
+                "ID": "328",
+                "VALUE": "No"
+            }
+        ],
+        "title": "Joining Status",
+        "listLabel": "Joining Status",
+        "formLabel": "Joining Status",
+        "filterLabel": "Joining Status",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772193061103"
+    },
+    "ufCrm8_1772193100078": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Graduation Year",
+        "listLabel": "Graduation Year",
+        "formLabel": "Graduation Year",
+        "filterLabel": "Graduation Year",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193100078"
+    },
+    "ufCrm8_1772193111039": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Work Experience",
+        "listLabel": "Work Experience",
+        "formLabel": "Work Experience",
+        "filterLabel": "Work Experience",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193111039"
+    },
+    "ufCrm8_1772193150190": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "330",
+                "VALUE": "Yes"
+            },
+            {
+                "ID": "332",
+                "VALUE": "No"
+            }
+        ],
+        "title": "Do you have any Real Estate experience?",
+        "listLabel": "Do you have any Real Estate experience?",
+        "formLabel": "Do you have any Real Estate experience?",
+        "filterLabel": "Do you have any Real Estate experience?",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772193150190"
+    },
+    "ufCrm8_1772193207046": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Photo",
+        "listLabel": "Photo",
+        "formLabel": "Photo",
+        "filterLabel": "Photo",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_8_1772193207046"
+    },
+    "ufCrm8_1772193399534": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "CV",
+        "listLabel": "CV",
+        "formLabel": "CV",
+        "filterLabel": "CV",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_8_1772193399534"
+    },
+    "ufCrm8_1772193431725": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Call Date",
+        "listLabel": "Call Date",
+        "formLabel": "Call Date",
+        "filterLabel": "Call Date",
+        "settings": {
+            "DEFAULT_VALUE": {
+                "TYPE": "NONE",
+                "VALUE": ""
+            }
+        },
+        "upperName": "UF_CRM_8_1772193431725"
+    },
+    "ufCrm8_1772193488423": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "334",
+                "VALUE": "Accepted"
+            },
+            {
+                "ID": "336",
+                "VALUE": "Rejected"
+            },
+            {
+                "ID": "338",
+                "VALUE": "On Hold"
+            },
+            {
+                "ID": "340",
+                "VALUE": "No Answer"
+            }
+        ],
+        "title": "Call Decision",
+        "listLabel": "Call Decision",
+        "formLabel": "Call Decision",
+        "filterLabel": "Call Decision",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772193488423"
+    },
+    "ufCrm8_1772193544349": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Call Comments",
+        "listLabel": "Call Comments",
+        "formLabel": "Call Comments",
+        "filterLabel": "Call Comments",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193544349"
+    },
+    "ufCrm8_1772193559381": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "One To One Meeting Date",
+        "listLabel": "One To One Meeting Date",
+        "formLabel": "One To One Meeting Date",
+        "filterLabel": "One To One Meeting Date",
+        "settings": {
+            "DEFAULT_VALUE": {
+                "TYPE": "NONE",
+                "VALUE": ""
+            }
+        },
+        "upperName": "UF_CRM_8_1772193559381"
+    },
+    "ufCrm8_1772193601285": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "342",
+                "VALUE": "Accepted"
+            },
+            {
+                "ID": "344",
+                "VALUE": "Rejected"
+            },
+            {
+                "ID": "346",
+                "VALUE": "On Hold"
+            }
+        ],
+        "title": "One To One Meeting Decision",
+        "listLabel": "One To One Meeting Decision",
+        "formLabel": "One To One Meeting Decision",
+        "filterLabel": "One To One Meeting Decision",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772193601285"
+    },
+    "ufCrm8_1772193623117": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "One To One Meeting Comments",
+        "listLabel": "One To One Meeting Comments",
+        "formLabel": "One To One Meeting Comments",
+        "filterLabel": "One To One Meeting Comments",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193623117"
+    },
+    "ufCrm8_1772193733501": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "348",
+                "VALUE": "Accepted"
+            },
+            {
+                "ID": "350",
+                "VALUE": "Rejected"
+            },
+            {
+                "ID": "352",
+                "VALUE": "Pending"
+            }
+        ],
+        "title": "Offer Status",
+        "listLabel": "Offer Status",
+        "formLabel": "Offer Status",
+        "filterLabel": "Offer Status",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772193733501"
+    },
+    "ufCrm8_1772193763101": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Offer letter",
+        "listLabel": "Offer letter",
+        "formLabel": "Offer letter",
+        "filterLabel": "Offer letter",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_8_1772193763101"
+    },
+    "ufCrm8_1772193960172": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Gendera",
+        "listLabel": "Gendera",
+        "formLabel": "Gendera",
+        "filterLabel": "Gendera",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1772193960172"
+    },
+    "ufCrm8_1772194064388": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "354",
+                "VALUE": "0"
+            },
+            {
+                "ID": "356",
+                "VALUE": "1"
+            },
+            {
+                "ID": "358",
+                "VALUE": "2"
+            },
+            {
+                "ID": "360",
+                "VALUE": "3"
+            },
+            {
+                "ID": "362",
+                "VALUE": "4"
+            },
+            {
+                "ID": "364",
+                "VALUE": "5"
+            },
+            {
+                "ID": "366",
+                "VALUE": "6"
+            },
+            {
+                "ID": "368",
+                "VALUE": "7"
+            },
+            {
+                "ID": "370",
+                "VALUE": "8"
+            },
+            {
+                "ID": "372",
+                "VALUE": "9"
+            },
+            {
+                "ID": "374",
+                "VALUE": "10"
+            },
+            {
+                "ID": "376",
+                "VALUE": "11"
+            },
+            {
+                "ID": "378",
+                "VALUE": "12"
+            },
+            {
+                "ID": "380",
+                "VALUE": "13"
+            },
+            {
+                "ID": "382",
+                "VALUE": "14"
+            },
+            {
+                "ID": "384",
+                "VALUE": "15"
+            },
+            {
+                "ID": "386",
+                "VALUE": "16"
+            },
+            {
+                "ID": "388",
+                "VALUE": "17"
+            },
+            {
+                "ID": "390",
+                "VALUE": "18"
+            },
+            {
+                "ID": "392",
+                "VALUE": "19"
+            },
+            {
+                "ID": "394",
+                "VALUE": "20"
+            },
+            {
+                "ID": "396",
+                "VALUE": "21"
+            },
+            {
+                "ID": "398",
+                "VALUE": "22"
+            },
+            {
+                "ID": "400",
+                "VALUE": "23"
+            },
+            {
+                "ID": "402",
+                "VALUE": "24"
+            },
+            {
+                "ID": "404",
+                "VALUE": "25"
+            },
+            {
+                "ID": "406",
+                "VALUE": "26"
+            },
+            {
+                "ID": "408",
+                "VALUE": "27"
+            },
+            {
+                "ID": "410",
+                "VALUE": "28"
+            },
+            {
+                "ID": "412",
+                "VALUE": "29"
+            },
+            {
+                "ID": "414",
+                "VALUE": "30"
+            }
+        ],
+        "title": "Years in Real Estate",
+        "listLabel": "Years in Real Estate",
+        "formLabel": "Years in Real Estate",
+        "filterLabel": "Years in Real Estate",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772194064388"
+    },
+    "ufCrm8_1772194127805": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "416",
+                "VALUE": "Male"
+            },
+            {
+                "ID": "418",
+                "VALUE": "Female"
+            }
+        ],
+        "title": "Gender",
+        "listLabel": "Gender",
+        "formLabel": "Gender",
+        "filterLabel": "Gender",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772194127805"
+    },
+    "ufCrm8_1772194260020": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "420",
+                "VALUE": "Franchise Owner"
+            },
+            {
+                "ID": "422",
+                "VALUE": "Franchise Manager"
+            },
+            {
+                "ID": "424",
+                "VALUE": "Office Admin"
+            },
+            {
+                "ID": "426",
+                "VALUE": "Team Leader"
+            },
+            {
+                "ID": "428",
+                "VALUE": "Team Member"
+            },
+            {
+                "ID": "430",
+                "VALUE": "Individual Agent"
+            },
+            {
+                "ID": "432",
+                "VALUE": "Group Leader"
+            },
+            {
+                "ID": "434",
+                "VALUE": "Group Member"
+            },
+            {
+                "ID": "436",
+                "VALUE": "Office HR"
+            },
+            {
+                "ID": "438",
+                "VALUE": "Office Account"
+            },
+            {
+                "ID": "440",
+                "VALUE": "Team Admin"
+            },
+            {
+                "ID": "442",
+                "VALUE": "Group Admin"
+            }
+        ],
+        "title": "Current Title with RE\/MAX",
+        "listLabel": "Current Title with RE\/MAX",
+        "formLabel": "Current Title with RE\/MAX",
+        "filterLabel": "Current Title with RE\/MAX",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772194260020"
+    },
+    "ufCrm8_1772194295467": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "444",
+                "VALUE": "Individual"
+            },
+            {
+                "ID": "446",
+                "VALUE": "Team Member"
+            },
+            {
+                "ID": "448",
+                "VALUE": "Team Leader"
+            },
+            {
+                "ID": "450",
+                "VALUE": "Team Admin"
+            }
+        ],
+        "title": "Team Status",
+        "listLabel": "Team Status",
+        "formLabel": "Team Status",
+        "filterLabel": "Team Status",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772194295467"
+    },
+    "ufCrm8_1772195303240": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "1420",
+                "VALUE": "Red - 8$ (Max Center Only) for Team Members"
+            },
+            {
+                "ID": "1422",
+                "VALUE": "White - 14$ (Max Center & Email) for Team Members"
+            },
+            {
+                "ID": "1424",
+                "VALUE": "Blue - 33$ (Max Ceneter, Email, Promax) for All"
+            },
+            {
+                "ID": "1426",
+                "VALUE": "Staff : Bronz - 0$ (Max Center Only - Staff Access)"
+            },
+            {
+                "ID": "1428",
+                "VALUE": "Staff : Silver - 6$ (Max Center & Email )"
+            },
+            {
+                "ID": "1430",
+                "VALUE": "Staff : Gold - 12$ (Max Center & Email & Promax Admin)"
+            }
+        ],
+        "title": "UAE Registration Plan",
+        "listLabel": "UAE Registration Plan",
+        "formLabel": "UAE Registration Plan",
+        "filterLabel": "UAE Registration Plan",
+        "settings": {
+            "DISPLAY": "DIALOG",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772195303240"
+    },
+    "ufCrm8_1772195319231": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "ID Expiry Date",
+        "listLabel": "ID Expiry Date",
+        "formLabel": "ID Expiry Date",
+        "filterLabel": "ID Expiry Date",
+        "settings": {
+            "DEFAULT_VALUE": {
+                "TYPE": "NONE",
+                "VALUE": ""
+            }
+        },
+        "upperName": "UF_CRM_8_1772195319231"
+    },
+    "ufCrm8_1772195330839": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Contract Copy",
+        "listLabel": "Contract Copy",
+        "formLabel": "Contract Copy",
+        "filterLabel": "Contract Copy",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_8_1772195330839"
+    },
+    "ufCrm8_1772195349103": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "ID",
+        "listLabel": "ID",
+        "formLabel": "ID",
+        "filterLabel": "ID",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_8_1772195349103"
+    },
+    "ufCrm8_1772197586170": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "1444",
+                "VALUE": "Afrikaans"
+            },
+            {
+                "ID": "1446",
+                "VALUE": "Albanian"
+            },
+            {
+                "ID": "1448",
+                "VALUE": "Amharic"
+            },
+            {
+                "ID": "1450",
+                "VALUE": "Arabic"
+            },
+            {
+                "ID": "1452",
+                "VALUE": "Armenian"
+            },
+            {
+                "ID": "1454",
+                "VALUE": "Basque"
+            },
+            {
+                "ID": "1456",
+                "VALUE": "Bengali"
+            },
+            {
+                "ID": "1458",
+                "VALUE": "Bulgarian"
+            },
+            {
+                "ID": "1460",
+                "VALUE": "Burmese"
+            },
+            {
+                "ID": "1462",
+                "VALUE": "Byelorussian"
+            },
+            {
+                "ID": "1464",
+                "VALUE": "Catalan"
+            },
+            {
+                "ID": "1466",
+                "VALUE": "Chinese"
+            },
+            {
+                "ID": "1468",
+                "VALUE": "Croatian"
+            },
+            {
+                "ID": "1470",
+                "VALUE": "Czech"
+            },
+            {
+                "ID": "1472",
+                "VALUE": "Danish"
+            },
+            {
+                "ID": "1474",
+                "VALUE": "Dari"
+            },
+            {
+                "ID": "1476",
+                "VALUE": "Dutch"
+            },
+            {
+                "ID": "1478",
+                "VALUE": "Dzongkha"
+            },
+            {
+                "ID": "1480",
+                "VALUE": "English"
+            },
+            {
+                "ID": "1482",
+                "VALUE": "Esperanto"
+            },
+            {
+                "ID": "1484",
+                "VALUE": "Estonian"
+            },
+            {
+                "ID": "1486",
+                "VALUE": "Faroese"
+            },
+            {
+                "ID": "1488",
+                "VALUE": "Farsi"
+            },
+            {
+                "ID": "1490",
+                "VALUE": "Finnish"
+            },
+            {
+                "ID": "1492",
+                "VALUE": "French"
+            },
+            {
+                "ID": "1494",
+                "VALUE": "Gaelic"
+            },
+            {
+                "ID": "1496",
+                "VALUE": "Galician"
+            },
+            {
+                "ID": "1498",
+                "VALUE": "German"
+            },
+            {
+                "ID": "1500",
+                "VALUE": "Greek"
+            },
+            {
+                "ID": "1502",
+                "VALUE": "Hebrew"
+            },
+            {
+                "ID": "1504",
+                "VALUE": "Hindi"
+            },
+            {
+                "ID": "1506",
+                "VALUE": "Hungarian"
+            },
+            {
+                "ID": "1508",
+                "VALUE": "Icelandic"
+            },
+            {
+                "ID": "1510",
+                "VALUE": "Indonesian"
+            },
+            {
+                "ID": "1512",
+                "VALUE": "Inuktitut (Eskimo)"
+            },
+            {
+                "ID": "1514",
+                "VALUE": "Italian"
+            },
+            {
+                "ID": "1516",
+                "VALUE": "Japanese"
+            },
+            {
+                "ID": "1518",
+                "VALUE": "Khmer"
+            },
+            {
+                "ID": "1520",
+                "VALUE": "Korean"
+            },
+            {
+                "ID": "1522",
+                "VALUE": "Kurdish"
+            },
+            {
+                "ID": "1524",
+                "VALUE": "Laotian"
+            },
+            {
+                "ID": "1526",
+                "VALUE": "Lappish"
+            },
+            {
+                "ID": "1528",
+                "VALUE": "Latvian"
+            },
+            {
+                "ID": "1530",
+                "VALUE": "Lithuanian"
+            },
+            {
+                "ID": "1532",
+                "VALUE": "Macedonian"
+            },
+            {
+                "ID": "1534",
+                "VALUE": "Malay"
+            },
+            {
+                "ID": "1536",
+                "VALUE": "Maltese"
+            },
+            {
+                "ID": "1538",
+                "VALUE": "Mandarin"
+            },
+            {
+                "ID": "1540",
+                "VALUE": "Nepali"
+            },
+            {
+                "ID": "1542",
+                "VALUE": "Norwegian"
+            },
+            {
+                "ID": "1544",
+                "VALUE": "Pashto"
+            },
+            {
+                "ID": "1546",
+                "VALUE": "Polish"
+            },
+            {
+                "ID": "1548",
+                "VALUE": "Portuguese"
+            },
+            {
+                "ID": "1550",
+                "VALUE": "Romanian"
+            },
+            {
+                "ID": "1552",
+                "VALUE": "Russian"
+            },
+            {
+                "ID": "1554",
+                "VALUE": "Scots"
+            },
+            {
+                "ID": "1556",
+                "VALUE": "Serbian"
+            },
+            {
+                "ID": "1558",
+                "VALUE": "Slovak"
+            },
+            {
+                "ID": "1560",
+                "VALUE": "Slovenian"
+            },
+            {
+                "ID": "1562",
+                "VALUE": "Somali"
+            },
+            {
+                "ID": "1564",
+                "VALUE": "Spanish"
+            },
+            {
+                "ID": "1566",
+                "VALUE": "Swahili"
+            },
+            {
+                "ID": "1568",
+                "VALUE": "Swedish"
+            },
+            {
+                "ID": "1570",
+                "VALUE": "Tagalog-Filipino"
+            },
+            {
+                "ID": "1572",
+                "VALUE": "Tajik"
+            },
+            {
+                "ID": "1574",
+                "VALUE": "Tamil"
+            },
+            {
+                "ID": "1576",
+                "VALUE": "Thai"
+            },
+            {
+                "ID": "1578",
+                "VALUE": "Tibetan"
+            },
+            {
+                "ID": "1580",
+                "VALUE": "Tigrinya"
+            },
+            {
+                "ID": "1582",
+                "VALUE": "Tongan"
+            },
+            {
+                "ID": "1584",
+                "VALUE": "Turkish"
+            },
+            {
+                "ID": "1586",
+                "VALUE": "Turkmen"
+            },
+            {
+                "ID": "1588",
+                "VALUE": "Ukrainian"
+            },
+            {
+                "ID": "1590",
+                "VALUE": "Urdu"
+            },
+            {
+                "ID": "1592",
+                "VALUE": "Uzbek"
+            }
+        ],
+        "title": "Languages",
+        "listLabel": "Languages",
+        "formLabel": "Languages",
+        "filterLabel": "Languages",
+        "settings": {
+            "DISPLAY": "UI",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1772197586170"
+    },
+    "ufCrm8_1774869698": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "linkedin",
+        "listLabel": "",
+        "formLabel": "linkedin",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1774869698"
+    },
+    "ufCrm8_1774869739": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "meta data ",
+        "listLabel": "",
+        "formLabel": "meta data ",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1774869739"
+    },
+    "ufCrm8_1774950629779": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Current Role in Real Estate in Dubai?",
+        "listLabel": "Current Role in Real Estate in Dubai?",
+        "formLabel": "Current Role in Real Estate in Dubai?",
+        "filterLabel": "Current Role in Real Estate in Dubai?",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1774950629779"
+    },
+    "ufCrm8_1774950641068": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Years of Experience in Real Estate",
+        "listLabel": "Years of Experience in Real Estate",
+        "formLabel": "Years of Experience in Real Estate",
+        "filterLabel": "Years of Experience in Real Estate",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1774950641068"
+    },
+    "ufCrm8_1774950651350": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Current Brokerage or Affiliation",
+        "listLabel": "Current Brokerage or Affiliation",
+        "formLabel": "Current Brokerage or Affiliation",
+        "filterLabel": "Current Brokerage or Affiliation",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_8_1774950651350"
+    },
+    "ufCrm8_1774978895410": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "21222",
+                "VALUE": "Broker Lead Form"
+            },
+            {
+                "ID": "21224",
+                "VALUE": "Careers Lead Form"
+            },
+            {
+                "ID": "21226",
+                "VALUE": "Campaign Form"
+            }
+        ],
+        "title": "Subsource",
+        "listLabel": "Subsource",
+        "formLabel": "Subsource",
+        "filterLabel": "Subsource",
+        "settings": {
+            "DISPLAY": "UI",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_8_1774978895410"
+    },
+    "ufCrm14_1774873991": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": " Community \/ Area",
+        "listLabel": " Community \/ Area",
+        "formLabel": " Community \/ Area",
+        "filterLabel": " Community \/ Area",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774873991"
+    },
+    "ufCrm14_1774978855341": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "21252",
+                "VALUE": "Property Listing"
+            },
+            {
+                "ID": "21254",
+                "VALUE": "Other"
+            }
+        ],
+        "title": " Subsource",
+        "listLabel": " Subsource",
+        "formLabel": " Subsource",
+        "filterLabel": " Subsource",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_14_1774978855341"
+    },
+    "ufCrmAccountCurrencyId": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "21256",
+                "VALUE": "UAE Dirham"
+            },
+            {
+                "ID": "21258",
+                "VALUE": "US Dollar"
+            },
+            {
+                "ID": "21260",
+                "VALUE": "Euro"
+            },
+            {
+                "ID": "21262",
+                "VALUE": "China Yuan Renminbi"
+            },
+            {
+                "ID": "21264",
+                "VALUE": "Brazilian Real"
+            },
+            {
+                "ID": "21266",
+                "VALUE": "Indian Rupee"
+            }
+        ],
+        "title": "Accounting currency",
+        "listLabel": "Accounting currency",
+        "formLabel": "Accounting currency",
+        "filterLabel": "Accounting currency",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_ACCOUNT_CURRENCY_ID"
+    },
+    "ufCrmOpportunity": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Amount",
+        "listLabel": "Amount",
+        "formLabel": "Amount",
+        "filterLabel": "Amount",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_OPPORTUNITY"
+    },
+    "ufCrmOpportunityAccount": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Amount (in accounting currency)",
+        "listLabel": "Amount (in accounting currency)",
+        "formLabel": "Amount (in accounting currency)",
+        "filterLabel": "Amount (in accounting currency)",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_OPPORTUNITY_ACCOUNT"
+    },
+    "ufCrm14_1774874002": {
+        "type": "money",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Asking price (AED)",
+        "listLabel": "Asking price (AED)",
+        "formLabel": "Asking price (AED)",
+        "filterLabel": "Asking price (AED)",
+        "settings": {
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774874002"
+    },
+    "ufCrmIsManualOpportunity": {
+        "type": "boolean",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Calculate amount manually",
+        "listLabel": "Calculate amount manually",
+        "formLabel": "Calculate amount manually",
+        "filterLabel": "Calculate amount manually",
+        "settings": {
+            "DEFAULT_VALUE": 0,
+            "DISPLAY": "CHECKBOX",
+            "LABEL": [
+                "",
+                ""
+            ],
+            "LABEL_CHECKBOX": ""
+        },
+        "upperName": "UF_CRM_IS_MANUAL_OPPORTUNITY"
+    },
+    "ufCrmCurrencyId": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "21268",
+                "VALUE": "UAE Dirham"
+            },
+            {
+                "ID": "21270",
+                "VALUE": "US Dollar"
+            },
+            {
+                "ID": "21272",
+                "VALUE": "Euro"
+            },
+            {
+                "ID": "21274",
+                "VALUE": "China Yuan Renminbi"
+            },
+            {
+                "ID": "21276",
+                "VALUE": "Brazilian Real"
+            },
+            {
+                "ID": "21278",
+                "VALUE": "Indian Rupee"
+            }
+        ],
+        "title": "Currency",
+        "listLabel": "Currency",
+        "formLabel": "Currency",
+        "filterLabel": "Currency",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_CURRENCY_ID"
+    },
+    "ufCrm14_1774874123": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Images \/ Documents",
+        "listLabel": "Images \/ Documents",
+        "formLabel": "Images \/ Documents",
+        "filterLabel": "Images \/ Documents",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_14_1774874123"
+    },
+    "ufCrm14_1774874017": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Preferred Contact Method",
+        "listLabel": "Preferred Contact Method",
+        "formLabel": "Preferred Contact Method",
+        "filterLabel": "Preferred Contact Method",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774874017"
+    },
+    "ufCrmProductIds": {
+        "type": "integer",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": true,
+        "title": "Products",
+        "listLabel": "Products",
+        "formLabel": "Products",
+        "filterLabel": "Products",
+        "settings": {
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_PRODUCT_IDS"
+    },
+    "ufCrm14_1774874087": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Property Description",
+        "listLabel": "Property Description",
+        "formLabel": "Property Description",
+        "filterLabel": "Property Description",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774874087"
+    },
+    "ufCrm14_1774873980": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Property Type",
+        "listLabel": "Property Type",
+        "formLabel": "Property Type",
+        "filterLabel": "Property Type",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774873980"
+    },
+    "ufCrmTaxValue": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Tax total",
+        "listLabel": "Tax total",
+        "formLabel": "Tax total",
+        "filterLabel": "Tax total",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_TAX_VALUE"
+    },
+    "ufCrmTaxValueAccount": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Tax value in accounting currency",
+        "listLabel": "Tax value in accounting currency",
+        "formLabel": "Tax value in accounting currency",
+        "filterLabel": "Tax value in accounting currency",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_TAX_VALUE_ACCOUNT"
+    },
+    "ufCrm14_1774873966": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "email",
+        "listLabel": "email",
+        "formLabel": "email",
+        "filterLabel": "email",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774873966"
+    },
+    "ufCrm14_1774873950": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "phone",
+        "listLabel": "phone",
+        "formLabel": "phone",
+        "filterLabel": "phone",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_14_1774873950"
+    }
+}

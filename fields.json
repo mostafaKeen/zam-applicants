@@ -1,0 +1,1704 @@
+{
+    "id": {
+        "type": "integer",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "ID",
+        "upperName": "ID"
+    },
+    "title": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Name",
+        "upperName": "TITLE"
+    },
+    "xmlId": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "External ID",
+        "upperName": "XML_ID"
+    },
+    "createdTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Created on",
+        "upperName": "CREATED_TIME"
+    },
+    "updatedTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Updated on",
+        "upperName": "UPDATED_TIME"
+    },
+    "createdBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Created by",
+        "upperName": "CREATED_BY"
+    },
+    "updatedBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Updated by",
+        "upperName": "UPDATED_BY"
+    },
+    "assignedById": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Responsible person",
+        "upperName": "ASSIGNED_BY_ID"
+    },
+    "opened": {
+        "type": "boolean",
+        "isRequired": true,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Available to everyone",
+        "upperName": "OPENED"
+    },
+    "webformId": {
+        "type": "integer",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Created by CRM form",
+        "upperName": "WEBFORM_ID"
+    },
+    "lastCommunicationTime": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last contact",
+        "upperName": "LAST_COMMUNICATION_TIME"
+    },
+    "begindate": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Started on",
+        "upperName": "BEGINDATE"
+    },
+    "closedate": {
+        "type": "date",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Finished on",
+        "upperName": "CLOSEDATE"
+    },
+    "companyId": {
+        "type": "crm_company",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Company",
+        "settings": {
+            "parentEntityTypeId": 4
+        },
+        "upperName": "COMPANY_ID"
+    },
+    "contactId": {
+        "type": "crm_contact",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "isDeprecated": true,
+        "title": "Contact",
+        "upperName": "CONTACT_ID"
+    },
+    "contactIds": {
+        "type": "crm_contact",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": false,
+        "title": "CONTACT_IDS",
+        "upperName": "CONTACT_IDS"
+    },
+    "contacts": {
+        "type": "crm_contact",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": false,
+        "title": "CONTACTS",
+        "upperName": "CONTACTS"
+    },
+    "observers": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": false,
+        "title": "Observers",
+        "upperName": "OBSERVERS"
+    },
+    "categoryId": {
+        "type": "crm_category",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Pipeline",
+        "upperName": "CATEGORY_ID"
+    },
+    "movedTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Stage change date",
+        "upperName": "MOVED_TIME"
+    },
+    "movedBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Stage changed by",
+        "upperName": "MOVED_BY"
+    },
+    "stageId": {
+        "type": "crm_status",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "statusType": "DYNAMIC_1044_STAGE_16",
+        "title": "Stage",
+        "upperName": "STAGE_ID"
+    },
+    "previousStageId": {
+        "type": "crm_status",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "statusType": "DYNAMIC_1044_STAGE_16",
+        "title": "Previous stage",
+        "upperName": "PREVIOUS_STAGE_ID"
+    },
+    "sourceId": {
+        "type": "crm_status",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "statusType": "SOURCE",
+        "title": "Source",
+        "upperName": "SOURCE_ID"
+    },
+    "sourceDescription": {
+        "type": "text",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Source information",
+        "upperName": "SOURCE_DESCRIPTION"
+    },
+    "currencyId": {
+        "type": "crm_currency",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Currency",
+        "upperName": "CURRENCY_ID"
+    },
+    "isManualOpportunity": {
+        "type": "boolean",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Amount calculation mode",
+        "upperName": "IS_MANUAL_OPPORTUNITY"
+    },
+    "opportunity": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Amount",
+        "upperName": "OPPORTUNITY"
+    },
+    "taxValue": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Tax total",
+        "upperName": "TAX_VALUE"
+    },
+    "mycompanyId": {
+        "type": "crm_company",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Your company details",
+        "settings": {
+            "isMyCompany": true,
+            "parentEntityTypeId": 4,
+            "isEmbeddedEditorEnabled": true
+        },
+        "upperName": "MYCOMPANY_ID"
+    },
+    "lastActivityBy": {
+        "type": "user",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last timeline activity added by",
+        "upperName": "LAST_ACTIVITY_BY"
+    },
+    "lastActivityTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last updated on",
+        "upperName": "LAST_ACTIVITY_TIME"
+    },
+    "isRecurring": {
+        "type": "boolean",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Recurring item",
+        "upperName": "IS_RECURRING"
+    },
+    "lastCommunicationCallTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last call",
+        "upperName": "LAST_COMMUNICATION_CALL_TIME"
+    },
+    "lastCommunicationEmailTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last email",
+        "upperName": "LAST_COMMUNICATION_EMAIL_TIME"
+    },
+    "lastCommunicationImolTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last Open Channel conversation",
+        "upperName": "LAST_COMMUNICATION_IMOL_TIME"
+    },
+    "lastCommunicationWebformTime": {
+        "type": "datetime",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": false,
+        "title": "Last CRM form submitted",
+        "upperName": "LAST_COMMUNICATION_WEBFORM_TIME"
+    },
+    "ufCrm10_1772547450": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20844",
+                "VALUE": "commercial"
+            },
+            {
+                "ID": "20846",
+                "VALUE": "residential"
+            }
+        ],
+        "title": "Category",
+        "listLabel": "",
+        "formLabel": "Category",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772547450"
+    },
+    "ufCrm10_1772547798": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20848",
+                "VALUE": "business-center"
+            },
+            {
+                "ID": "20850",
+                "VALUE": "office-space"
+            },
+            {
+                "ID": "20852",
+                "VALUE": "land"
+            },
+            {
+                "ID": "20854",
+                "VALUE": "whole-building"
+            },
+            {
+                "ID": "20856",
+                "VALUE": "factory"
+            },
+            {
+                "ID": "20858",
+                "VALUE": "shop"
+            },
+            {
+                "ID": "20860",
+                "VALUE": "warehouse"
+            },
+            {
+                "ID": "20862",
+                "VALUE": "full-floor"
+            },
+            {
+                "ID": "20864",
+                "VALUE": "farm"
+            },
+            {
+                "ID": "20866",
+                "VALUE": "show-room"
+            },
+            {
+                "ID": "20868",
+                "VALUE": "bulk-sale-unit"
+            },
+            {
+                "ID": "20870",
+                "VALUE": "half-floor"
+            },
+            {
+                "ID": "20872",
+                "VALUE": "bulk-rent-unit"
+            },
+            {
+                "ID": "20874",
+                "VALUE": "co-working-space"
+            },
+            {
+                "ID": "20876",
+                "VALUE": "staff-accommodation"
+            },
+            {
+                "ID": "20878",
+                "VALUE": "retail"
+            },
+            {
+                "ID": "20880",
+                "VALUE": "labor-camp"
+            },
+            {
+                "ID": "21344",
+                "VALUE": "Apartment"
+            },
+            {
+                "ID": "21346",
+                "VALUE": "Penthouses"
+            },
+            {
+                "ID": "21348",
+                "VALUE": "Residential"
+            },
+            {
+                "ID": "21350",
+                "VALUE": "Villas"
+            }
+        ],
+        "title": "Type",
+        "listLabel": "Type",
+        "formLabel": "Type",
+        "filterLabel": "Type",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772547798"
+    },
+    "ufCrm10_1772547952": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20882",
+                "VALUE": "sale"
+            },
+            {
+                "ID": "20888",
+                "VALUE": "monthly"
+            },
+            {
+                "ID": "20890",
+                "VALUE": "yearly"
+            }
+        ],
+        "title": "Price Type",
+        "listLabel": "Price Type",
+        "formLabel": "Price Type",
+        "filterLabel": "Price Type",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772547952"
+    },
+    "ufCrm10_1772548013": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Location",
+        "listLabel": "",
+        "formLabel": "Location",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548013"
+    },
+    "ufCrm10_1772548031": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20892",
+                "VALUE": "abu-dhabi"
+            },
+            {
+                "ID": "20894",
+                "VALUE": "dubai"
+            },
+            {
+                "ID": "20896",
+                "VALUE": "Northern Emirates"
+            }
+        ],
+        "title": "UAE Emirate",
+        "listLabel": "",
+        "formLabel": "UAE Emirate",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548031"
+    },
+    "ufCrm10_1772548083": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Size (sqft)",
+        "listLabel": "",
+        "formLabel": "Size (sqft)",
+        "filterLabel": "",
+        "settings": {
+            "PRECISION": 0,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1772548083"
+    },
+    "ufCrm10_1772548104": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": true,
+        "title": "Images",
+        "listLabel": "",
+        "formLabel": "Images",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_10_1772548104"
+    },
+    "ufCrm10_1772548116": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Age",
+        "listLabel": "",
+        "formLabel": "Age",
+        "filterLabel": "",
+        "settings": {
+            "PRECISION": 0,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1772548116"
+    },
+    "ufCrm10_1772548154": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20898",
+                "VALUE": "studio"
+            },
+            {
+                "ID": "20900",
+                "VALUE": "1"
+            },
+            {
+                "ID": "20902",
+                "VALUE": "2"
+            },
+            {
+                "ID": "20904",
+                "VALUE": "3"
+            },
+            {
+                "ID": "20906",
+                "VALUE": "4"
+            },
+            {
+                "ID": "20908",
+                "VALUE": "5"
+            },
+            {
+                "ID": "20910",
+                "VALUE": "6"
+            }
+        ],
+        "title": "Bedrooms",
+        "listLabel": "",
+        "formLabel": "Bedrooms",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548154"
+    },
+    "ufCrm10_1772548183": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20912",
+                "VALUE": "1"
+            },
+            {
+                "ID": "20914",
+                "VALUE": "2"
+            },
+            {
+                "ID": "20916",
+                "VALUE": "3"
+            },
+            {
+                "ID": "20918",
+                "VALUE": "4"
+            },
+            {
+                "ID": "20920",
+                "VALUE": "5"
+            },
+            {
+                "ID": "20922",
+                "VALUE": "6"
+            }
+        ],
+        "title": "Bathrooms",
+        "listLabel": "",
+        "formLabel": "Bathrooms",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548183"
+    },
+    "ufCrm10_1772548216": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Description (EN)",
+        "listLabel": "",
+        "formLabel": "Description (EN)",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 250,
+            "ROWS": 5,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548216"
+    },
+    "ufCrm10_1772548224": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Title (EN)",
+        "listLabel": "",
+        "formLabel": "Title (EN)",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548224"
+    },
+    "ufCrm10_1772548235": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Title (AR)",
+        "listLabel": "",
+        "formLabel": "Title (AR)",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548235"
+    },
+    "ufCrm10_1772548244": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Description (AR)",
+        "listLabel": "",
+        "formLabel": "Description (AR)",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 250,
+            "ROWS": 5,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548244"
+    },
+    "ufCrm10_1772548256": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Reference",
+        "listLabel": "",
+        "formLabel": "Reference",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548256"
+    },
+    "ufCrm10_1772548267": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Developer",
+        "listLabel": "",
+        "formLabel": "Developer",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548267"
+    },
+    "ufCrm10_1772548287": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20924",
+                "VALUE": "under-construction"
+            },
+            {
+                "ID": "20926",
+                "VALUE": "completed"
+            }
+        ],
+        "title": "Project Status",
+        "listLabel": "",
+        "formLabel": "Project Status",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548287"
+    },
+    "ufCrm10_1772548315": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Street Width",
+        "listLabel": "",
+        "formLabel": "Street Width",
+        "filterLabel": "",
+        "settings": {
+            "PRECISION": 0,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1772548315"
+    },
+    "ufCrm10_1772548332": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20928",
+                "VALUE": " South-West"
+            },
+            {
+                "ID": "20930",
+                "VALUE": "South-East"
+            },
+            {
+                "ID": "20932",
+                "VALUE": "North-West"
+            },
+            {
+                "ID": "20934",
+                "VALUE": "North-East"
+            },
+            {
+                "ID": "20936",
+                "VALUE": "West "
+            },
+            {
+                "ID": "20938",
+                "VALUE": "East"
+            },
+            {
+                "ID": "20940",
+                "VALUE": "North"
+            },
+            {
+                "ID": "20942",
+                "VALUE": "South"
+            }
+        ],
+        "title": "Street Direction",
+        "listLabel": "",
+        "formLabel": "Street Direction",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548332"
+    },
+    "ufCrm10_1772548421": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Floor Number",
+        "listLabel": "",
+        "formLabel": "Floor Number",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548421"
+    },
+    "ufCrm10_1772548432": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Unit Number",
+        "listLabel": "",
+        "formLabel": "Unit Number",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548432"
+    },
+    "ufCrm10_1772548441": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Number of Floors",
+        "listLabel": "",
+        "formLabel": "Number of Floors",
+        "filterLabel": "",
+        "settings": {
+            "PRECISION": 0,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1772548441"
+    },
+    "ufCrm10_1772548455": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20944",
+                "VALUE": "semi-finished"
+            },
+            {
+                "ID": "20946",
+                "VALUE": "fully-finished"
+            },
+            {
+                "ID": "20948",
+                "VALUE": "unfinished"
+            }
+        ],
+        "title": "Finishing Type",
+        "listLabel": "",
+        "formLabel": "Finishing Type",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548455"
+    },
+    "ufCrm10_1772548507": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Sale Price",
+        "listLabel": "",
+        "formLabel": "Sale Price",
+        "filterLabel": "",
+        "settings": {
+            "PRECISION": 0,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1772548507"
+    },
+    "ufCrm10_1772548520": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Yearly Rent",
+        "listLabel": "",
+        "formLabel": "Yearly Rent",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548520"
+    },
+    "ufCrm10_1772548531": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Monthly Rent",
+        "listLabel": "",
+        "formLabel": "Monthly Rent",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548531"
+    },
+    "ufCrm10_1772548540": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Weekly Rent",
+        "listLabel": "",
+        "formLabel": "Weekly Rent",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548540"
+    },
+    "ufCrm10_1772548550": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Daily Rent",
+        "listLabel": "",
+        "formLabel": "Daily Rent",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1772548550"
+    },
+    "ufCrm10_1772548560": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "20950",
+                "VALUE": "dtcm"
+            },
+            {
+                "ID": "20952",
+                "VALUE": "rera"
+            },
+            {
+                "ID": "20954",
+                "VALUE": "adrec"
+            }
+        ],
+        "title": "RERA Type",
+        "listLabel": "",
+        "formLabel": "RERA Type",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1772548560"
+    },
+    "ufCrm10_1775293551578": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "pf whatsapp",
+        "listLabel": "pf whatsapp",
+        "formLabel": "pf whatsapp",
+        "filterLabel": "pf whatsapp",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1775293551578"
+    },
+    "ufCrm10_1775293566065": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "bayut",
+        "listLabel": "bayut",
+        "formLabel": "bayut",
+        "filterLabel": "bayut",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1775293566065"
+    },
+    "ufCrm10_1775293577335": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "website",
+        "listLabel": "website",
+        "formLabel": "website",
+        "filterLabel": "website",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1775293577335"
+    },
+    "ufCrm10_1775293588601": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "total",
+        "listLabel": "total",
+        "formLabel": "total",
+        "filterLabel": "total",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1775293588601"
+    },
+    "ufCrm10_1775489681228": {
+        "type": "double",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "facebook",
+        "listLabel": "facebook",
+        "formLabel": "facebook",
+        "filterLabel": "facebook",
+        "settings": {
+            "PRECISION": 2,
+            "SIZE": 20,
+            "MIN_VALUE": 0,
+            "MAX_VALUE": 0,
+            "DEFAULT_VALUE": null
+        },
+        "upperName": "UF_CRM_10_1775489681228"
+    },
+    "ufCrm10_1776069608": {
+        "type": "enumeration",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": true,
+        "isDynamic": true,
+        "items": [
+            {
+                "ID": "21318",
+                "VALUE": "Pool view"
+            },
+            {
+                "ID": "21320",
+                "VALUE": "Co Working Space"
+            },
+            {
+                "ID": "21322",
+                "VALUE": "Centralized AC"
+            },
+            {
+                "ID": "21324",
+                "VALUE": "Car Parking"
+            },
+            {
+                "ID": "21326",
+                "VALUE": "Pool"
+            },
+            {
+                "ID": "21328",
+                "VALUE": "Sitting Area"
+            },
+            {
+                "ID": "21330",
+                "VALUE": "Social zone"
+            },
+            {
+                "ID": "21332",
+                "VALUE": "Security"
+            },
+            {
+                "ID": "21334",
+                "VALUE": "Gym"
+            },
+            {
+                "ID": "21336",
+                "VALUE": "BBQ"
+            }
+        ],
+        "title": "Amenities",
+        "listLabel": "",
+        "formLabel": "Amenities",
+        "filterLabel": "",
+        "settings": {
+            "DISPLAY": "LIST",
+            "LIST_HEIGHT": 1,
+            "CAPTION_NO_VALUE": "",
+            "SHOW_NO_VALUE": "Y"
+        },
+        "upperName": "UF_CRM_10_1776069608"
+    },
+    "ufCrm10_1776070930": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Project Name WebSite",
+        "listLabel": "",
+        "formLabel": "Project Name WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776070930"
+    },
+    "ufCrm10_1776071863": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Brochure Link WebSite",
+        "listLabel": "",
+        "formLabel": "Brochure Link WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776071863"
+    },
+    "ufCrm10_1776071910": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Payment Plan WebSite",
+        "listLabel": "",
+        "formLabel": "Payment Plan WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776071910"
+    },
+    "ufCrm10_1776072013": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Developer Summary WebSite",
+        "listLabel": "",
+        "formLabel": "Developer Summary WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776072013"
+    },
+    "ufCrm10_1776072030": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Developer URL WebSite",
+        "listLabel": "",
+        "formLabel": "Developer URL WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776072030"
+    },
+    "ufCrm10_1776072042": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Developer Logo URL WebSite",
+        "listLabel": "",
+        "formLabel": "Developer Logo URL WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_10_1776072042"
+    },
+    "ufCrm10_1776139832": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Phone Number WebSite",
+        "listLabel": "",
+        "formLabel": "Phone Number WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776139832"
+    },
+    "ufCrm10_1776139854": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Location Details",
+        "listLabel": "",
+        "formLabel": "Location Details",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776139854"
+    },
+    "ufCrm10_1776139891": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Agent Image WebSite",
+        "listLabel": "",
+        "formLabel": "Agent Image WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_10_1776139891"
+    },
+    "ufCrm10_1776149284": {
+        "type": "file",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Video WebSite",
+        "listLabel": "",
+        "formLabel": "Video WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "LIST_WIDTH": 0,
+            "LIST_HEIGHT": 0,
+            "MAX_SHOW_SIZE": 0,
+            "MAX_ALLOWED_SIZE": 0,
+            "EXTENSIONS": [],
+            "TARGET_BLANK": "Y",
+            "DEFAULT_VIEW": null
+        },
+        "upperName": "UF_CRM_10_1776149284"
+    },
+    "ufCrm10_1776244316": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Rental Yield WebSite",
+        "listLabel": "",
+        "formLabel": "Rental Yield WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776244316"
+    },
+    "ufCrm10_1776244503": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "RERA No WebSIte",
+        "listLabel": "",
+        "formLabel": "RERA No WebSIte",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776244503"
+    },
+    "ufCrm10_1776245316": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Unit Types WebSite",
+        "listLabel": "",
+        "formLabel": "Unit Types WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776245316"
+    },
+    "ufCrm10_1776245432": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "Parking Lots WebSite",
+        "listLabel": "",
+        "formLabel": "Parking Lots WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776245432"
+    },
+    "ufCrm10_1776245617": {
+        "type": "string",
+        "isRequired": false,
+        "isReadOnly": false,
+        "isImmutable": false,
+        "isMultiple": false,
+        "isDynamic": true,
+        "title": "City WebSite",
+        "listLabel": "",
+        "formLabel": "City WebSite",
+        "filterLabel": "",
+        "settings": {
+            "SIZE": 20,
+            "ROWS": 1,
+            "REGEXP": "",
+            "MIN_LENGTH": 0,
+            "MAX_LENGTH": 0,
+            "DEFAULT_VALUE": ""
+        },
+        "upperName": "UF_CRM_10_1776245617"
+    }
+}
