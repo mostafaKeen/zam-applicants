@@ -117,6 +117,8 @@ foreach ($allRecords as $index => $record) {
                 'OWNER_TYPE_ID' => $entityTypeId,
                 'OWNER_ID' => $bitrixId,
                 'TYPE_ID' => 6,
+                'PROVIDER_ID' => $record['ProviderId'] ?? 'CRM_TODO',
+                'PROVIDER_TYPE_ID' => ($record['ProviderId'] ?? 'CRM_TODO') === 'CRM_TODO' ? 'TODO' : ($record['ProviderTypeId'] ?? ''),
                 'SUBJECT' => 'Imported Activity',
                 'DESCRIPTION' => $description,
                 'COMPLETED' => ($record['Completed'] ?? 'N') === 'Y' ? 'Y' : 'N',
@@ -133,7 +135,7 @@ foreach ($allRecords as $index => $record) {
             $stats['errors']++;
             echo "[$index/$totalToProcess] FAILED Activity: " . $res['error'] . "\n";
         }
-    } else {
+    } else { 
         // Add Comment (Timeline)
         $payload = [
             'entityTypeId' => $entityTypeId,
