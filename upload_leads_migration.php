@@ -96,6 +96,9 @@ foreach ($activityBlocks as $block) {
         $bitrixLeadId = $bitrixLookup[$lookupKey];
         $stats['matched']++;
         
+        // --- Rate Limiting: 0.5s delay ---
+        usleep(500000);
+
         // Prepare content
         $description = cleanDescription($record['Description']);
         $created = formatB24Date($record['Created']);
@@ -124,7 +127,13 @@ foreach ($activityBlocks as $block) {
                     'COMPLETED' => ($record['Completed'] === 'Y' ? 'Y' : 'N'),
                     'DESCRIPTION' => $description,
                     'PROVIDER_ID' => 'CRM_TODO',
-                    'PROVIDER_TYPE_ID' => 'TODO'
+                    'PROVIDER_TYPE_ID' => 'TODO',
+                    'COMMUNICATIONS' => [
+                        [
+                            'ENTITY_ID' => $bitrixLeadId,
+                            'ENTITY_TYPE_ID' => 'LEAD'
+                        ]
+                    ]
                 ]
             ]);
         }
