@@ -40,19 +40,22 @@ while (true) {
     if (empty($res['result'])) break;
     
     foreach ($res['result'] as $lead) {
-        $name = trim($lead['TITLE']);
+        $name = strtolower(trim($lead['TITLE']));
         $date = trim($lead[$promaxDateField]);
         if ($name && $date) {
-            $key = $name . "|" . $date;
+            // Extract YYYY-MM-DD
+            $day = substr($date, 0, 10);
+            $key = $name . "|" . $day;
+            // If multiple leads match name+day, we store them as an array or pick the first
             $bitrixLookup[$key] = $lead['ID'];
         }
     }
     
     if (!isset($res['next'])) break;
     $start = $res['next'];
-    echo "  Fetched " . count($bitrixLookup) . " leads...\n";
+    echo "  Fetched " . count($bitrixLookup) . " unique name|day keys...\n";
 }
-echo "Built internal lookup for " . count($bitrixLookup) . " leads.\n";
+echo "Built internal lookup for " . count($bitrixLookup) . " unique name|day keys.\n";
 
 // 3. Process Activities
 $stats = ['total' => 0, 'matched' => 0, 'missing_entity' => 0, 'missing_lead' => 0, 'success' => 0, 'error' => 0];
@@ -70,16 +73,23 @@ foreach ($activityBlocks as $block) {
         
         if (!isset($entityMap[$eid])) {
             $stats['missing_entity']++;
-            $missingRecords[] = array_merge($record, ['Reason' => 'EntityId not found in Excel mapping']);
             continue;
         }
         
         $ref = $entityMap[$eid];
-        $lookupKey = $ref['name'] . "|" . $ref['created'];
+        $name = strtolower(trim($ref['name']));
+        $day = substr(trim($ref['created']), 0, 10);
+        $lookupKey = $name . "|" . $day;
         
         if (!isset($bitrixLookup[$lookupKey])) {
             $stats['missing_lead']++;
-            $missingRecords[] = array_merge($record, ['Reason' => 'No matching Lead found in Bitrix24 for ' . $lookupKey]);
+            $missingRecords[] = [
+                'EntityId' => $eid,
+                'Name' => $ref['name'],
+                'Date' => $ref['created'],
+                'LookupKey' => $lookupKey,
+                'Reason' => 'No matching Lead found in Bitrix24 for this name and day'
+            ];
             continue;
         }
         
